@@ -1,0 +1,124 @@
+<div class="page page-charts" >
+
+
+    <section data-ng-controller="chartCtrl">
+
+        <section data-ng-controller="sparklineCtrl">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Line Charts</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div data-sparkline
+                             data-data="largeChart1.data"
+                             data-options="largeChart1.options"
+                                ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Bar Charts</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <div data-sparkline
+                             data-data="largeChart2.data"
+                             data-options="largeChart2.options"
+                                ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Pie Charts</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <div data-sparkline
+                             data-data="largeChart3.data"
+                             data-options="largeChart3.options"
+                                ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section data-ng-controller="sparklineCtrl">
+
+
+        <div class="row dashboard-stats">
+            <div class="col-lg-6 col-sm-12">
+                <section class="panel panel-box">
+                    <div class="panel-left panel-item bg-success">
+                        <i class="fa fa-truck text-large stat-icon"></i>
+                        <p>1</p>
+                    </div>
+
+                    <div class="panel-item bg-reverse">
+                        <div data-sparkline
+                             data-data="largeChart30.data"
+                             data-options="largeChart30.options"></div>
+                    </div>
+
+                </section>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <section class="panel panel-box">
+                    <div class="panel-left panel-item bg-success">
+                        <i class="fa fa-truck text-large stat-icon"></i>
+                        <p>2</p>
+                    </div>
+
+                    <div class="panel-item bg-reverse">
+                        <div data-sparkline
+                             data-data="largeChart30.data"
+                             data-options="largeChart30.options"></div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+            <div class="row dashboard-stats">
+                <div class="col-lg-6 col-sm-12">
+                    <section class="panel panel-box">
+                        <div class="panel-left panel-item bg-success">
+                            <i class="fa fa-truck text-large stat-icon"></i>
+                            <p>3</p>
+                        </div>
+
+                        <div class="panel-item bg-reverse">
+                            <div data-sparkline
+                                 data-data="largeChart30.data"
+                                 data-options="largeChart30.options"></div>
+                        </div>
+
+                    </section>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <section class="panel panel-box">
+                        <div class="panel-left panel-item bg-warning">
+                            <i class="fa fa-truck text-large stat-icon"></i>
+                            <p>4</p>
+                        </div>
+
+                        <div class="panel-item bg-reverse">
+                            <div data-sparkline
+                                 data-data="largeChart30Warn.data"
+                                 data-options="largeChart30Warn.options"></div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+        </section>
+
+
+    </section>
+
+</div>
