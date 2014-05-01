@@ -9,7 +9,7 @@ import java.io.Serializable;
  * User: grant
  */
 @Entity
-@Table("CYCLES")
+@Table(name = "CYCLES")
 public class Cycles implements Serializable {
 
     @Id

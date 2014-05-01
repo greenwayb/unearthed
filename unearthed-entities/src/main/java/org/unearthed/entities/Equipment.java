@@ -47,7 +47,7 @@ public class Equipment implements Serializable {
     @Column(name = "Equipment_CostMineRegion")
     private String equipmentCostMineRegion;
 
-    @Column(name = "Equipment_CostMineRegion")
+    @Column(name = "Equipment_CostLocationsEq")
     private String equipmentLocationsEq;
 
     public int getEquipmentVersion() {

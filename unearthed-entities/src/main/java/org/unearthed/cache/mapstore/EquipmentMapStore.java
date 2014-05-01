@@ -13,7 +13,7 @@ import java.util.*;
  */
 public class EquipmentMapStore implements MapStore<Long, Equipment> {
 
-    private static Map<Long, Equipment> store = new HashMap<>();
+    private static Map<Long, Equipment> store = new HashMap<Long, Equipment>();
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -53,7 +53,7 @@ public class EquipmentMapStore implements MapStore<Long, Equipment> {
 
     @Override
     public Map<Long, Equipment> loadAll(Collection<Long> keys) {
-        Map<Long, Equipment> map = new HashMap<>();
+        Map<Long, Equipment> map = new HashMap<Long, Equipment>();
         for (Long key : keys) {
             map.put(key, store.get(key));
         }
@@ -65,7 +65,7 @@ public class EquipmentMapStore implements MapStore<Long, Equipment> {
 
         TypedQuery<Long> query =  entityManager.createQuery("select e.equipmentId from Equipment e", Long.class);
         List<Long> keys =query.getResultList();
-        Set<Long> result = new HashSet<>(keys.size());
+        Set<Long> result = new HashSet<Long>(keys.size());
         result.addAll(keys);
         return result;
 
