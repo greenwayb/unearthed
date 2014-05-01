@@ -1,0 +1,33 @@
+
+<div class="well">
+
+<h2>
+	Users List <!-- <a class="btn btn-primary pull-right" href="#/users/new"><i class="icon-plus-sign icon-white"></i> Submit New User</a> -->
+</h2>
+
+
+
+<!--<table class="table table-striped">-->
+	<!--<tr ng-repeat="matchuser in matchusers">-->
+        <!--<td><img src="assets/images/anonymous_256.png"></td>-->
+		<!--<td><a href="#/users/{{matchuser.id}}">{{matchuser.id}}</a></td>-->
+        <!--<td>{{matchuser.username}}</td>-->
+		<!--<td>{{matchuser.password}}</td>-->
+        <!--<td>{{matchuser.email}}</td>-->
+	<!--</tr>-->
+<!--</table>-->
+
+
+<table class="table table-striped">
+    <tr ng-repeat="matchuser in matchusers">
+       <td>
+        <div class="row  show-grid"  >
+            <div class="col-md-3"><img src="assets/images/user.png"></div>
+            <div class="col-md-1">User Id:<a href="#/users/{{matchuser.id}}">{{matchuser.id}}</a></div>
+            <div class="col-md-1">{{matchuser.username}}</div>
+            <!--<div class="col-md-1">{{matchuser.password}}</div>-->
+            <div class="col-md-1">{{matchuser.email}}</div>
+        </div>
+    </tr>
+</table>
+</div>

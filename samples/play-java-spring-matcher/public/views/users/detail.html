@@ -1,0 +1,18 @@
+<div class="well">
+<legend>User Details</legend>
+<h2>{{matchuser.username}}</h2>
+<p>
+    <small class="muted">joined: {{matchuser.createdOn | date:'shortDate'}}, last login:</small>
+</p>
+<hr>
+<div>
+<!--<img src="{{story.image}}">-->
+<img src="assets/images/user.png" />
+<p class="lead">
+    password={{matchuser.password}}
+</p>
+    <p class="lead">
+        email={{matchuser.email}}
+    </p>
+</div>
+</div>

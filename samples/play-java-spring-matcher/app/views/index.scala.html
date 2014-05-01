@@ -1,0 +1,180 @@
+@()<!DOCTYPE html>
+<html lang="en" ng-app="getmatchusers">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+        <!--link rel="stylesheet" media="screen" href="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("bootstrap.min.css"))" /-->
+        <!-- careful with the slashes, must have leading, and not end slash so /public/css<no slash> is correct.  Otherwise you get a MatchError - see https://groups.google.com/forum/#!topic/play-framework/jG9_kDUGzD4
+        <!-- at("/public/css","bootstrap.min.css" -->
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("/public/css","bootstrap.min.css")"/>
+
+        <link rel="stylesheet" href="assets/css/toastr.css"/>
+
+        <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+        <!-- Disabled zooming feels more native http://getbootstrap.com/css/ -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <style>
+        body {
+        padding-top: 60px;
+        }
+        </style>
+        <title>Matcher</title>
+    </head>
+    <body>
+
+
+
+            <!--div class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Matcher</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#/list">All Users</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Dropdown header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div-->
+
+
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Matcher</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#/list">All Users</a></li>
+                            <!-- Want these two types to come from config - ie if house sitting site like this, otherwise mappings for aupairs, homeswapping -->
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">HouseSitters <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Map</a></li>
+                                    <li><a href="#">Recent</a></li>
+                                    <li><a href="#">All</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Search</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Homes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Map</a></li>
+                                    <li><a href="#">Recent</a></li>
+                                    <li><a href="#">All</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Search</a></li>
+                                </ul>
+                            </li>
+                            <!-- This Section Only after your logged on :-) -->
+                            <li><a href="#">Profile</a></li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Messages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Inbox</a></li>
+                                    <li><a href="#">Drafts</a></li>
+                                    <li><a href="#">Sent Items</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Trash</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                        <form class="navbar-form navbar-right" role="form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign in</button>
+                            <a class="btn btn-large btn-info" href="#/users/new">Sign up today</a>
+                        </form>
+
+                    </div><!--/.navbar-collapse -->
+                </div>
+            </div>
+
+
+            <!--div class="masthead">
+                <h3 class="text-muted">Matcher</h3>
+                <ul class="nav nav-justified">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div-->
+
+
+        @*<div class="container">*@
+
+                <!-- Jumbotron -->
+            <div class="contatiner" ng-view>
+                <h1>Matcher App</h1>
+                <p class="lead">Welcome to matcher - the content is loading</p>
+            </div>
+
+
+        <hr />
+
+        <footer>
+            <p>&copy; HSAngels 2014</p>
+        </footer>
+
+
+        @*</div>*@
+
+        <script src="assets/js/jquery-1.11.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/angular.js"></script>
+        <script src="assets/js/angular-resource.js"></script>
+        <script src="assets/js/toastr.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
+

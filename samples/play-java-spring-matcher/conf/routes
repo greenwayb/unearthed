@@ -1,0 +1,47 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+## HouseSitting Users
+GET         /                            controllers.Application.index
+#GET        /     controllers.Assets.at(path="/public", file="html/static.html")
+#GET      /                         controllers.Assets.at(path="/public", file="/index.html")
+GET         /api/v1/users                controllers.MatchUserController.allUsers()
+POST        /api/v1/users                controllers.MatchUserController.submitUser()
+GET         /api/v1/users/:userId        controllers.MatchUserController.getUser(userId)
+
+#GET         /hs/sitter/faq              controllers.Assets.at(path="/public/views/housesitting/housesitters", file="faq.html")
+#GET         /hs/owner/faq               controllers.Assets.at(path="/public/views/housesitting/homeowners", file="faq.html")
+
+## Original
+# Home page
+#GET     /                           @controllers.Application.index
+#GET     /bars                       @controllers.Application.listBars
+#POST    /bars                       @controllers.Application.addBar
+
+#Statis
+### Enable www.WebJars.org based resources to be returned
+GET         /webjars/*file               controllers.CdnWebJarAssets.at(file)
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                controllers.Assets.at(path="/public", file)
+GET         /public/css/*file            controllers.Assets.at(path="/public/css", file)
+GET         /public/fonts/*file          controllers.Assets.at(path="/public/fonts", file)
+GET         /public/images/*file         controllers.Assets.at(path="/public/fonts", file)
+GET         /public/img/*file            controllers.Assets.at(path="/public/fonts", file)
+
+
+# see http://www.playframework.com/documentation/2.0.x/Assets
+GET         /hs/sitter/faq               controllers.Assets.at(path="/public/views/housesitting/housesitters", file="/faq.html")
+GET         /hs/owner/faq                controllers.Assets.at(path="/public/views/housesitting/homeowners", file="/faq.html")
+
+
+## 30day framework - used stories ....
+# Home page
+#GET         /                           controllers.Assets.at(path="/public", file="/index.html")
+#GET         /api/v1/stories             controllers.StoryController.allStories()
+#POST        /api/v1/stories             controllers.StoryController.submitStory()
+#GET         /api/v1/stories/:storyId    controllers.StoryController.getStory(storyId)
+
+# Map static resources from the /public folder to the /assets URL path
+#GET         /assets/*file        controllers.Assets.at(path="/public", file)
