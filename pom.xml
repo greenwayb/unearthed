@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>unearthed-entities</module>
+        <module>backend</module>
     </modules>
 
     <properties>
