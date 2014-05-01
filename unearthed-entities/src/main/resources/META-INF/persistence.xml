@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+
+
+    <persistence-unit name="unearthed">
+
+        <class>org.unearthed.entities.AccountEntity</class>
+        <class>org.unearthed.entities.AdviserEntity</class>
+        <class>org.unearthed.entities.ClientapplicantEntity</class>
+        <class>org.unearthed.entities.ClientEntity</class>
+        <class>org.unearthed.entities.ClientselectionEntity</class>
+        <class>org.unearthed.entities.SequenceEntity</class>
+
+        <properties>
+            <property name="eclipselink.logging.level" value="WARN"/>
+        </properties>
+
+    </persistence-unit>
+
+
+</persistence>

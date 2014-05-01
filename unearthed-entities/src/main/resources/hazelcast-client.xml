@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:hz="http://www.hazelcast.com/schema/spring"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+http://www.hazelcast.com/schema/spring
+http://www.hazelcast.com/schema/spring/hazelcast-spring-3.2.xsd">
+
+
+    <hz:client id="unearthed">
+        <hz:group name="dev" password="password" />
+        <hz:network
+                connection-attempt-limit="1000000"
+                connection-timeout="60000"
+                connection-attempt-period="3000"
+                redo-operation="true"
+                smart-routing="true" />
+
+        <hz:load-balancer type="round-robin" />
+    </hz:client>
+
+</beans>
