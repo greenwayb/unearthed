@@ -2,6 +2,7 @@ package org.unearthed.entities.reporting;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -16,6 +17,7 @@ import java.io.Serializable;
 public class VEquipmentFunctionEntity {
     private String equipmentFunctionCode2;
     private Integer equipmentFunctionVersion;
+    @Id
     private Long equipmentFunctionId;
     private Integer equipmentFunctionActive;
     private String equipmentFunctionCode;

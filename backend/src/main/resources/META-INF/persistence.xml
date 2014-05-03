@@ -5,16 +5,12 @@
 
     <persistence-unit name="unearthed">
 
-        <class>org.unearthed.entities.AccountEntity</class>
-        <class>org.unearthed.entities.AdviserEntity</class>
-        <class>org.unearthed.entities.ClientapplicantEntity</class>
-        <class>org.unearthed.entities.ClientEntity</class>
-        <class>org.unearthed.entities.ClientselectionEntity</class>
-        <class>org.unearthed.entities.SequenceEntity</class>
+        <class>org.unearthed.entities.reporting.AlloctntimestampEntity</class>
 
-        <properties>
-            <property name="eclipselink.logging.level" value="WARN"/>
-        </properties>
+
+        <!--<properties>-->
+            <!--<property name="eclipselink.logging.level" value="WARN"/>-->
+        <!--</properties>-->
 
     </persistence-unit>
 

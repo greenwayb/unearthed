@@ -13,15 +13,15 @@ public class Main implements MapNames {
 
     public static void main(String args[]) {
         gson = new Gson();
-        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("backend-application-context.xml");
 
         CacheService hazelcastService = applicationContext.getBean(CacheService.class);
 
-        hazelcastService.addContinuousQuery(EQUIPMENT_MAP, new CacheListener<Object, Object>() {
+        hazelcastService.addContinuousQuery(EVENT_MAP, new CacheListener<Object, Object>() {
 
             @Override
             public void added(CacheEvent<Object, Object> event) {
-                System.out.println("Added " + toJson(event));
+                System.out.println("Removed " + toJson(event));
             }
 
             @Override
@@ -35,7 +35,7 @@ public class Main implements MapNames {
             }
 
 
-        }, "equipmentModel = 'CAT950'");
+        }, "measureCode = 'TONNE'");
     }
 
     private static String toJson(Object object) {

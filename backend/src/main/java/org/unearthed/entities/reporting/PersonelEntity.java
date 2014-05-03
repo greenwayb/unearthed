@@ -2,6 +2,7 @@ package org.unearthed.entities.reporting;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,6 +14,7 @@ import javax.persistence.Entity;
 @javax.persistence.Table(name = "PERSONEL", schema = "dbo", catalog = "HCK_PITRAMReporting")
 @Entity
 public class PersonelEntity {
+    @Id
     private String shkey;
     private String equipment;
     private String operator;

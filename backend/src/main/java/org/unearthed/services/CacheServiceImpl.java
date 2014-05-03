@@ -4,7 +4,6 @@ import com.hazelcast.core.EntryEvent;
 import com.hazelcast.core.EntryListener;
 import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.query.SqlPredicate;
-import com.mysql.jdbc.CacheAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -28,6 +27,10 @@ public class CacheServiceImpl implements CacheService, MapNames {
         } else {
             return hazelcastInstance.<K, V>getMap(EQUIPMENT_MAP).addEntryListener(new MyEntryListener<K, V>(listener), new SqlPredicate(sql), true);
         }
+    }
+
+    public <K, V> String addCacheListener(String cacheName, final CacheListener<K, V> listener) {
+        return hazelcastInstance.<K, V>getMap(EQUIPMENT_MAP).addEntryListener(new MyEntryListener<K, V>(listener), true);
     }
 
     private class MyEntryListener<K, V> implements EntryListener<K, V> {
@@ -61,4 +64,6 @@ public class CacheServiceImpl implements CacheService, MapNames {
 
         }
     }
+
+
 }

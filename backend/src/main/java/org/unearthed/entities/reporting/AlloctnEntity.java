@@ -2,6 +2,7 @@ package org.unearthed.entities.reporting;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,6 +22,7 @@ public class AlloctnEntity {
     private String destn;
     private String material;
     private String role;
+    @Id
     private Long key;
 
     @javax.persistence.Column(name = "SHKEY")

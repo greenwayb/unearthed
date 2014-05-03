@@ -2,6 +2,7 @@ package org.unearthed.entities.reporting;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,6 +20,7 @@ public class VShiftlogEntity {
     private String periodDay;
     private String shiftCode;
     private String lastShiftShift;
+    @Id
     private String shiftKey;
     private String periodMonthCode;
     private String periodYearCode;

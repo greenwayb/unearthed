@@ -2,6 +2,7 @@ package org.unearthed.entities.reporting;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -42,6 +43,7 @@ public class VEquipmentEntity {
 
     @javax.persistence.Column(name = "Equipment_Id")
     @Basic
+    @Id
     public Long getEquipmentId() {
         return equipmentId;
     }
@@ -206,9 +208,7 @@ public class VEquipmentEntity {
         this.equipmentCostMineRegion = equipmentCostMineRegion;
     }
 
-    public void setEquipmentCostMineRegion(String equipmentCostMineRegion) {
-        this.equipmentCostMineRegion = equipmentCostMineRegion;
-    }    private String equipmentCostMineRegionCode;
+    private String equipmentCostMineRegionCode;
 
     @javax.persistence.Column(name = "Equipment_CostMineRegion_Code")
     @Basic

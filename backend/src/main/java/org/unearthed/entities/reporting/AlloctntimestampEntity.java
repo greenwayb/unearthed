@@ -28,6 +28,7 @@ public class AlloctntimestampEntity {
     private String assignedDestn;
     private Timestamp eventDateTime;
     private Integer eventSource;
+    private String meascode;
 
     @javax.persistence.Column(name = "TSKey")
     @Id
@@ -157,6 +158,16 @@ public class AlloctntimestampEntity {
 
     public void setEventSource(Integer eventSource) {
         this.eventSource = eventSource;
+    }
+
+    @javax.persistence.Column(name = "MEASCODE")
+    @Basic
+    public String getMeascode() {
+        return meascode;
+    }
+
+    public void setMeascode(String meascode) {
+        this.meascode = meascode;
     }
 
     @Override
