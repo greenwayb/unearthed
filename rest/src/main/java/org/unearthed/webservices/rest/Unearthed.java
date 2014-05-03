@@ -15,9 +15,6 @@ import org.unearthed.services.EventCache;
 import javax.annotation.PostConstruct;
 import javax.ws.rs.*;
 import java.io.IOException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 @Path("unearthed")
 @Service
@@ -68,59 +65,59 @@ public class Unearthed implements MapNames, ApplicationContextAware {
         @Produces(SseFeature.SERVER_SENT_EVENTS)
         public EventOutput getServerSentEvents() {
             final EventOutput eventOutput = new EventOutput();
-//            new Thread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    try {
-//                        for (int i = 0; i < 10; i++) {
-//                            // ... code that waits 1 second
-//                            final OutboundEvent.Builder eventBuilder
-//                                    = new OutboundEvent.Builder();
-//                            eventBuilder.name("message-to-client");
-//                            eventBuilder.data(String.class,
-//                                    "Hello world " + i + "!");
-//                            final OutboundEvent event = eventBuilder.build();
-//                            eventOutput.write(event);
-//                        }
-//                    } catch (IOException e) {
-//                        throw new RuntimeException(
-//                                "Error when writing the event.", e);
-//                    } catch (Exception e) {
-//                        throw new RuntimeException(
-//                                "Error when writing the event.", e);
-//                    } finally {
-//                        try {
-//                            eventOutput.close();
-//                        } catch (IOException ioClose) {
-//                            throw new RuntimeException(
-//                                    "Error when closing the event output.", ioClose);
-//                        }
-//                    }
-//                }
-//            }).start();
-            ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
-            scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
-
-                long x = 0 ;
+            new Thread(new Runnable() {
                 @Override
                 public void run() {
                     try {
-                        final OutboundEvent.Builder eventBuilder
-                                = new OutboundEvent.Builder();
-                        eventBuilder.name("message-to-client");
-                        eventBuilder.data(String.class,
-                                "Hello world " + (x++) + "!");
-                        final OutboundEvent event = eventBuilder.build();
-                        eventOutput.write(event);
+                        for (int i = 0; i < 10; i++) {
+                            Thread.sleep(1000);
+                            final OutboundEvent.Builder eventBuilder
+                                    = new OutboundEvent.Builder();
+                            eventBuilder.name("message-to-client");
+                            eventBuilder.data(String.class,
+                                    "Hello world " + i + "!");
+                            final OutboundEvent event = eventBuilder.build();
+                            eventOutput.write(event);
+                        }
+                    } catch (IOException e) {
+                        throw new RuntimeException(
+                                "Error when writing the event.", e);
                     } catch (Exception e) {
+                        throw new RuntimeException(
+                                "Error when writing the event.", e);
+                    } finally {
                         try {
                             eventOutput.close();
-                        } catch (IOException e1) {
-                            e1.printStackTrace();
+                        } catch (IOException ioClose) {
+                            throw new RuntimeException(
+                                    "Error when closing the event output.", ioClose);
                         }
                     }
                 }
-            }, 1, 1, TimeUnit.SECONDS);
+            }).start();
+//            ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
+//            scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
+//
+//                long x = 0 ;
+//                @Override
+//                public void run() {
+//                    try {
+//                        final OutboundEvent.Builder eventBuilder
+//                                = new OutboundEvent.Builder();
+//                        eventBuilder.name("message-to-client");
+//                        eventBuilder.data(String.class,
+//                                "Hello world " + (x++) + "!");
+//                        final OutboundEvent event = eventBuilder.build();
+//                        eventOutput.write(event);
+//                    } catch (Exception e) {
+//                        try {
+//                            eventOutput.close();
+//                        } catch (IOException e1) {
+//                            e1.printStackTrace();
+//                        }
+//                    }
+//                }
+//            }, 1, 1, TimeUnit.SECONDS);
             return eventOutput;
         }
     }
