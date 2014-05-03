@@ -1,0 +1,33 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+body {
+    background-color: black;
+    color: yellow;
+}
+
+.chart-widget {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+
+    padding: 5px;
+}
+
+.dropPanel {
+}
+
+.DraggableVerticalPanel-header {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    padding: 2px;
+}

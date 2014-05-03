@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:stat='urn:import:com.inventive.system.monitoring.gwt.client.statistics'>
+
+    <ui:style>
+
+
+    </ui:style>
+
+    <g:FlexTable ui:field="flexTable" />
+
+</ui:UiBinder>

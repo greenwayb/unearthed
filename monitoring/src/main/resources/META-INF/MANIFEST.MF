@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Class-Path: commons-logging-1.1.1.jar aopalliance-1.0.jar slf4j-api-1.
+ 5.11.jar quartz-1.8.6.jar spring-context-3.0.2.RELEASE.jar gwt-dev-2.
+ 5.0.jar spring-expression-3.0.2.RELEASE.jar eclipselink-2.0.2.jar val
+ idation-api-1.0.0.GA.jar json-20090211.jar gwt-dnd-3.2.0.jar javax.in
+ ject-1.jar guice-assistedinject-3.0.jar hazelcast-2.4.1.jar hazelcast
+ -spring-2.4.1.jar spring-core-3.0.2.RELEASE.jar slf4j-log4j12-1.5.11.
+ jar commons-dbcp-1.2.2.jar gwt-user-2.5.0.jar guice-3.0.jar gwt-sl-0.
+ 1.5.jar javax.persistence-2.0.0.jar gwt-visualization-1.1.1.jar sprin
+ g-web-3.0.2.RELEASE.jar spring-orm-3.0.2.RELEASE.jar spring-test-3.0.
+ 2.RELEASE.jar spring-context-support-3.0.2.RELEASE.jar spring-webmvc-
+ 3.0.2.RELEASE.jar spring-beans-3.0.2.RELEASE.jar gson-2.2.2.jar sprin
+ g-aop-3.0.2.RELEASE.jar gin-2.0.0.jar commons-pool-1.5.4.jar spring-j
+ dbc-3.0.2.RELEASE.jar validation-api-1.0.0.GA-sources.jar spring-asm-
+ 3.0.2.RELEASE.jar gwt-user.jar log4j-1.2.14.jar spring-tx-3.0.2.RELEA
+ SE.jar hsqldb-1.8.0.10.jar gwt-servlet-2.5.0.jar spring-aspects-3.0.2
+ .RELEASE.jar
+Main-Class: com.inventive.system.monitoring.server.service.publisher.E
+ xternalStatisticsPublisherMain
+

@@ -1,0 +1,29 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:c='urn:import:com.google.gwt.user.cellview.client'>
+
+    <ui:style>
+
+        .dataTable {
+        }
+    </ui:style>
+
+    <g:DockLayoutPanel unit='EM' ui:field="rootPanel">
+
+        <g:north size="2">
+            <g:HTMLPanel>
+                <div>
+                    <g:Button ui:field="addChartButton" text="Add Chart" />
+                    <g:Button ui:field="addDescriptorButton" text="Add Descriptor" />
+                    <g:Button ui:field="refreshButton" text="Refresh" />
+                </div>
+            </g:HTMLPanel>
+        </g:north>
+        <g:center>
+            <c:DataGrid ui:field="dataGrid"  addStyleNames="{style.dataTable}"/>
+        </g:center>
+    </g:DockLayoutPanel>
+
+
+
+</ui:UiBinder>

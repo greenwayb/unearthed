@@ -1,0 +1,48 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:style>
+
+        .left {
+            float: left;
+        }
+
+        .horizontalPanel {
+            width: 100%;
+        }
+
+        .wrapper {
+            width: 100%;
+        }
+
+        .absolutePanel {
+            width: 90%;
+            height: 800px;
+            padding: 5px;
+        }
+
+        .dndPanel {
+            width: 2000px;
+            height: 1000px;
+        }
+
+
+    </ui:style>
+
+    <g:TabLayoutPanel ui:field="tabLayoutPanel" barUnit="PX" barHeight="60" addStyleNames="{style.wrapper}">
+        <g:tab>
+            <g:header>Dashboard</g:header>
+            <g:HTMLPanel>
+                <g:Button ui:field="addWidgetButton" text="Add Widget" />
+                <g:SimplePanel ui:field="dragDropWrapperPanel" addStyleNames="{style.wrapper}"/>
+            </g:HTMLPanel>
+        </g:tab>
+        <g:tab>
+            <g:header>Descriptors</g:header>
+            <g:SimpleLayoutPanel ui:field="descriptorsWrapperPanel" />
+        </g:tab>
+
+    </g:TabLayoutPanel>
+
+
+</ui:UiBinder>

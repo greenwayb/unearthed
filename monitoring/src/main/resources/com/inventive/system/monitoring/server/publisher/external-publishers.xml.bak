@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:hz="http://www.hazelcast.com/schema/spring"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.hazelcast.com/schema/spring
+http://www.hazelcast.com/schema/spring/hazelcast-spring-2.4.xsd">
+
+    <util:set id="externalConnectors">
+        <bean class="com.inventive.system.monitoring.server.service.publisher.ExternalConnector">
+            <property name="descriptors" ref="statistics" />
+            <property name="serviceUrl" value="service:jmx:rmi:///jndi/rmi://localhost:8999/jmxrmi" />
+            <property name="processName" value="tomcat" />
+        </bean>
+    </util:set>
+
+    <util:list id="statistics" value-type="com.inventive.system.monitoring.server.service.publisher.StatisticDescriptor">
+        <bean class="com.inventive.system.monitoring.server.service.publisher.StatisticDescriptor">
+            <property name="objectName" value="java.lang:type=Memory" />
+            <property name="propertyName" value="HeapMemoryUsage" />
+            <property name="interval" value="10000" />
+            <property name="fieldName" value="Used" />
+            <property name="converter">
+                <bean class="com.inventive.system.monitoring.server.service.publisher.MemoryDataConverter">
+                    <property name="field" value="used" />
+                </bean>
+            </property>
+        </bean>
+        <bean class="com.inventive.system.monitoring.server.service.publisher.StatisticDescriptor">
+            <property name="objectName" value="java.lang:type=Memory" />
+            <property name="propertyName" value="HeapMemoryUsage" />
+            <property name="interval" value="10000" />
+            <property name="fieldName" value="Max" />
+            <property name="converter">
+                <bean class="com.inventive.system.monitoring.server.service.publisher.MemoryDataConverter">
+                    <property name="field" value="max" />
+                </bean>
+            </property>
+        </bean>
+        <bean class="com.inventive.system.monitoring.server.service.publisher.StatisticDescriptor">
+            <property name="objectName" value="java.lang:type=OperatingSystem" />
+            <property name="propertyName" value="SystemLoadAverage" />
+            <property name="interval" value="10000" />
+        </bean>
+
+    </util:list>
+
+</beans>

@@ -2,234 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="before stripping controller down">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.bowerrc" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.editorconfig" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.gitignore" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.jshintrc" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.travis.yml" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/404.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/pages/404.html" afterPath="$PROJECT_DIR$/frontend/dist/views/pages/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/500.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/pages/500.html" afterPath="$PROJECT_DIR$/frontend/dist/views/pages/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.min.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartCtrl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartDirective.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Chart/ChartDirective.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Entry.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Entry.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormCtrl.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormCtrl.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormDirective.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormDirective.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormValidation.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Form/FormValidation.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/Gruntfile.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/Gruntfile.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Table/TableCtrl.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Table/TableCtrl.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Task/Task.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Task/Task.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/UI/UICtrl.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/UI/UICtrl.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/UI/UIService.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/UI/UIService.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_accordion.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_accordion.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_alerts.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_alerts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_angular-wizard.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_angular-wizard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_animation.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_badges.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_badges.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_badges.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_badges.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_bootstrap-slider.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_bootstrap-slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/_bootstrap.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/_bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_bootstrap.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_breadcrumbs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_breadcrumbs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_button-groups.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_button-groups.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_buttons.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_buttons.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_callout.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_callout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_carousel.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_carousel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_close.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_close.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_code.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_code.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_component-animations.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_component-animations.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_content.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_dashboard.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_dashboard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_demo.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_demo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_dropdowns.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_dropdowns.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_easypiecharts.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_easypiecharts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_err.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_err.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-checkbox_radio.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-checkbox_radio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-input.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-input.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-select.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-select.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-spinner.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-spinner.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-switch.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_form-switch.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_form.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_glyphicons.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_glyphicons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_grid.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_header.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_icons.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_image-size.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_image-size.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_input-groups.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_input-groups.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_jquery-steps.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_jquery-steps.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_jumbotron.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_labels.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_labels.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_labels.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_labels.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_list-group.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_list-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_list-group.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_list-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_media.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_media.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_modals.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_nav.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/sections/_nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_navbar.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_navs.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_navs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_normalize.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_pager.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_pager.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_pages.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_pagination.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_pagination.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_pagination.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_pagination.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_panels.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_panels.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_panels.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_panels.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_popovers.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_popovers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_print.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_print.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_profile.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_profile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_progress-bars.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_progress-bars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_progress-bars.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_progress-bars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_responsive-tables.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_responsive-tables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_responsive-utilities.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_responsive-utilities.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_scaffolding.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_scaffolding.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_scaffolding.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_scaffolding.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_signin_signup.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_signin_signup.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_sparkline.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_sparkline.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_sprites.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_sprites.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tab.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tables-responsive.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tables-responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_tables.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_tables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tables.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_tables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_tasks.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_tasks.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_theme.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_theme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_thumbnails.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_thumbnails.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_toastr.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/plugins/_toastr.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_tooltip.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_tooltip.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_type.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_type.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_type.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/components/_type.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_ui.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/pages/_ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/_ui.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/_ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_utilities.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_utilities.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/global/_var.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/global/_var.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/_var.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/ui/_var.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_variables-origin.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_variables-origin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_wells.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap-sass/bootstrap/_wells.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/app.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/scripts/app.js" afterPath="$PROJECT_DIR$/frontend/dist/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/application.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/frontend/documentation/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/bower.json" afterPath="$PROJECT_DIR$/frontend/admin-iflat/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/buttons.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/buttons.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/charts.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/charts/charts.html" afterPath="$PROJECT_DIR$/frontend/dist/views/charts/charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/components.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/components.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/dashboard.html" afterPath="$PROJECT_DIR$/frontend/dist/views/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/directives.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/directives.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/css/docs.css" afterPath="$PROJECT_DIR$/frontend/documentation/assets/css/docs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/dynamic.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/dynamic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/tables/dynamic.html" afterPath="$PROJECT_DIR$/frontend/dist/views/tables/dynamic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/elements.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/forms/elements.html" afterPath="$PROJECT_DIR$/frontend/dist/views/forms/elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/entries/entryEvents.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/entries/entryEvents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/flot.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/flot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/charts/flot.html" afterPath="$PROJECT_DIR$/frontend/dist/views/charts/flot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/frontend/dist/bower_components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/frontend/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/styles/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/frontend/dist/styles/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/grids.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/grids.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/header.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/header.html" afterPath="$PROJECT_DIR$/frontend/dist/views/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/trucks/history.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/trucks/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/holder.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/html5shiv.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/icons.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/icons.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/index.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/index.html" afterPath="$PROJECT_DIR$/frontend/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/index.html" afterPath="$PROJECT_DIR$/frontend/documentation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/jquery.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/jquery.smooth-scroll.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/jquery.smooth-scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/vendors/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/vendors/jquery.sparkline.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/layouts.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/layouts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/forms/layouts.html" afterPath="$PROJECT_DIR$/frontend/dist/views/forms/layouts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/localize.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/localize.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/main.coffee" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/main.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/styles/main.css" afterPath="$PROJECT_DIR$/frontend/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/css/main.css" afterPath="$PROJECT_DIR$/frontend/documentation/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/main.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/shared/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/main.scss" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/styles/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/gwt/client/statistics/chart_line_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/gwt/client/statistics/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/AbstractAsyncCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/AbstractMvpPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Action.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionHandlerRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionServiceAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionServiceProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEventHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/callable/AddPublisherCallable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddSubscriptionActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Cacheable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/CachingActionServiceAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/CancelEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/CancelHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/ChartClosedEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/ChartClosedEventHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/ConversionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/DefaultActionHandlerRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ExternalConnector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ExternalStatisticsPublisherMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/GetChartsActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/GetPublishersActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/monitoring/GetStatisticsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/monitoring/GetStatisticsActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/monitoring/GetStatisticsResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/GetStreamingMessagesAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/GetStreamingMessagesActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/GetStreamingMessagesResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtStatisticDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/HasPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/HasStatistic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/JmxStatisticKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenterFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/LoggedInEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/LoggedInEventHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/LoginAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/LoginActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/LoginResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MachineLockKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MapNames.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MemoryDataConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/MvpPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/MvpView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/NumberStatisticMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/OkEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/OkHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ProcessNameFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveChartAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/RemoveChartActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveChartResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/RemoveSubscriptionActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/ResetChartsStreamingMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ResetJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/ResetMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/Resources.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StartStreamingAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StartStreamingActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StartStreamingResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticPublisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StopStreamingAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StopStreamingActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StopStreamingResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamMessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListenerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamingService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamingServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/SystemMonitoring.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringEntryPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/TextStreamMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/UserContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/WidgetMovedEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/WidgetMovedHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/assembly/assembly.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/server/publisher/external-publishers-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/server/publisher/external-publishers.xml.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/external-publishers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gwt_user.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/handler-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/log4j.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/monitoring.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/storage-node.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/classes/web-override.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/charts/morris.html" afterPath="$PROJECT_DIR$/frontend/dist/views/charts/morris.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/nav.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/nav.html" afterPath="$PROJECT_DIR$/frontend/dist/views/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/package.json" afterPath="$PROJECT_DIR$/frontend/admin-iflat/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/google-code-prettify/prettify.css" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/google-code-prettify/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/js/google-code-prettify/prettify.js" afterPath="$PROJECT_DIR$/frontend/documentation/assets/js/google-code-prettify/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/profile.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/pages/profile.html" afterPath="$PROJECT_DIR$/frontend/dist/views/pages/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/documentation/assets/css/pygments-manni.css" afterPath="$PROJECT_DIR$/frontend/documentation/assets/css/pygments-manni.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_de.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_de.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_en.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_en.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_es.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_es.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_fr.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_fr.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_it.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_it.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ja.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ja.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ko.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ko.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_pt.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_pt.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ru.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ru.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_zh.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/i18n/resources-locale_zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_zh.js" afterPath="$PROJECT_DIR$/frontend/dist/i18n/resources-locale_zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/vendors/responsive-tables.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/vendors/responsive-tables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/responsive.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/responsive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/tables/responsive.html" afterPath="$PROJECT_DIR$/frontend/dist/views/tables/responsive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/rest.iml" afterPath="$PROJECT_DIR$/rest/rest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/signin.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/pages/signin.html" afterPath="$PROJECT_DIR$/frontend/dist/views/pages/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/signup.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/pages/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/pages/signup.html" afterPath="$PROJECT_DIR$/frontend/dist/views/pages/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/ssePlainController.js" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/ssePlainController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/static.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tables/static.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/tables/static.html" afterPath="$PROJECT_DIR$/frontend/dist/views/tables/static.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/trucks/status.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/trucks/status.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tasks/tasks.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/tasks/tasks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/tasks/tasks.html" afterPath="$PROJECT_DIR$/frontend/dist/views/tasks/tasks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/typography.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/typography.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/styles/ui.css" afterPath="$PROJECT_DIR$/frontend/dist/styles/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/scripts/ui.js" afterPath="$PROJECT_DIR$/frontend/dist/scripts/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/validation.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/forms/validation.html" afterPath="$PROJECT_DIR$/frontend/dist/views/forms/validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.idea/vcs.xml" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/scripts/vendor.js" afterPath="$PROJECT_DIR$/frontend/dist/scripts/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/widgets.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/ui/widgets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/ui/widgets.html" afterPath="$PROJECT_DIR$/frontend/dist/views/ui/widgets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/wizard.html" afterPath="$PROJECT_DIR$/frontend/admin-iflat/client/views/forms/wizard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/dist/views/forms/wizard.html" afterPath="$PROJECT_DIR$/frontend/dist/views/forms/wizard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/admin-iflat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/frontend/admin-iflat/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unearthed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -255,7 +181,7 @@
       <file leaf-file-name="SSE.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -265,7 +191,7 @@
       <file leaf-file-name="app-misc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
@@ -275,18 +201,8 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.980392" vertical-offset="3452" max-vertical-offset="3995">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3525">
               <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChartCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/.tmp/scripts/Chart/ChartCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1825" max-vertical-offset="8313">
-              <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -295,7 +211,7 @@
       <file leaf-file-name="morris.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2890">
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2550">
               <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding />
             </state>
@@ -305,28 +221,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.846153" vertical-offset="785" max-vertical-offset="1700">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1500">
               <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SSE.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/scripts/sse/SSE.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="986">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -335,18 +231,48 @@
       <file leaf-file-name="Track.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="3400">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3000">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tasks.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35915494" vertical-offset="1428" max-vertical-offset="2244">
-              <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <state vertical-scroll-proportion="-12.875" vertical-offset="966" max-vertical-offset="1980">
+              <caret line="85" column="69" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3630">
+              <caret line="39" column="162" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddJmxPropertyPresenter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29182878" vertical-offset="0" max-vertical-offset="1500">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -381,6 +307,7 @@
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html" />
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee" />
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -394,7 +321,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Git\apache-maven-3.2.1" />
+        <option name="mavenHome" value="$USER_HOME$/Applications/apache-maven-3.1.1" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -405,24 +332,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="rest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="rest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -446,21 +355,14 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1135" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -469,7 +371,9 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -488,293 +392,41 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
+              <option name="myItemId" value="unearthed_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
+              <option name="myItemId" value="unearthed_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
+              <option name="myItemId" value="unearthed_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
+              <option name="myItemId" value="unearthed_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
+              <option name="myItemId" value="unearthed_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-iflat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="monitoring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -788,7 +440,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="MavenSettings" />
@@ -796,14 +448,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sse-chat-template-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Git\unearthed\frontend\admin-iflat\client\scripts\sse" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.UnearthedRest">
+  <component name="RunManager" selected="GWT Configuration.Monitoring">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -840,6 +492,21 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1030,6 +697,25 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1050,6 +736,17 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Monitoring" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="monitoring" />
+      <option name="RUN_PAGE" value="SystemMonitoring.html" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="false" name="UnearthedRest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.53" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1061,6 +758,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_unearthed" />
+        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1126,8 +824,9 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.UnearthedRest" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="GWT Configuration.Monitoring" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.UnearthedRest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1146,15 +845,16 @@
       <workItem from="1399109743029" duration="946000" />
       <workItem from="1399110756498" duration="14518000" />
       <workItem from="1399128328272" duration="7527000" />
+      <workItem from="1399155915728" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22991000" />
+    <option name="totallyTimeSpent" value="23358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1135" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1169,22 +869,22 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16240682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44588745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44582933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33013844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33013844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1214,11 +914,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3525">
+          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2550">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1500">
+          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2955">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/scripts/sse/SSE.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="870">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3000">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1980">
+          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Task/Task.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="697">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,25 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="2839">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="901">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/eventsource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1972">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
           <caret line="5" column="73" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,14 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
           <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/.tmp/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1445">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1335,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
           <caret line="5" column="73" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,23 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
           <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/eventsource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1972">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1378" max-vertical-offset="2244">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="697">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,9 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2788">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1409,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="561">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="850">
           <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,7 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.846153" vertical-offset="785" max-vertical-offset="1700">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1500">
           <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
           <folding />
         </state>
@@ -1463,23 +1176,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2890">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2550">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/.tmp/scripts/Chart/ChartCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1825" max-vertical-offset="8313">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.980392" vertical-offset="3452" max-vertical-offset="3995">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3525">
           <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding />
         </state>
@@ -1503,8 +1208,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494" vertical-offset="1428" max-vertical-offset="2244">
-          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state vertical-scroll-proportion="-12.875" vertical-offset="966" max-vertical-offset="1980">
+          <caret line="85" column="69" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3630">
+          <caret line="39" column="162" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29182878" vertical-offset="0" max-vertical-offset="1500">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1563,7 +1292,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rest</last-edited>
+          <last-edited>GWT|monitoring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,21 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:stat='urn:import:com.inventive.system.monitoring.gwt.client.statistics'>
+
+    <ui:style>
+
+        .chartWrapper {
+            float: left;
+            border: 1px solid #708090;
+            width: 450px;
+            height: 100px;
+
+            -moz-box-shadow: 10px 10px 5px #888;
+            -webkit-box-shadow: 10px 10px 5px #888;
+            box-shadow: 10px 10px 5px #888;
+            border-radius: 5px;
+        }
+
+    </ui:style>
+
+    <stat:ChartWrapper ui:field="chartWrapper" addStyleNames="{style.chartWrapper}" />
+</ui:UiBinder>

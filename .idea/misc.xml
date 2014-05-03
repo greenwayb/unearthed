@@ -4,7 +4,9 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="gwt" url="file://$PROJECT_DIR$/monitoring" />
     <file type="web" url="file://$PROJECT_DIR$/backend" />
+    <file type="web" url="file://$PROJECT_DIR$/monitoring" />
     <file type="web" url="file://$PROJECT_DIR$/rest" />
   </component>
   <component name="IdProvider" IDEtalkID="F299D9607A5AD65BF27000F55CFD2200" />
