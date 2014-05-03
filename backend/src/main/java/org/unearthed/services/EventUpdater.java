@@ -13,10 +13,12 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.sql.DataSource;
 import java.math.BigDecimal;
+import java.math.MathContext;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * User: grant
@@ -38,6 +40,8 @@ public class EventUpdater implements MapNames{
 
     private JdbcTemplate jdbcTemplate;
 
+    private AtomicLong atomicLong = new AtomicLong(0);
+
     @PostConstruct
     public void start() {
 
@@ -58,22 +62,23 @@ public class EventUpdater implements MapNames{
                 "join\n" +
                 "measuretimestamp m on a.tskey = m.tskey where\n" +
                 "Meascode = 'TONNE' and \n" +
-                "m.eventDateTime >= cast('2013-05-01' as DATE) and m.eventDateTime < cast('2013-05-10' AS DATE)");
+                "m.eventDateTime >= cast('2013-06-01' as DATE) and m.eventDateTime < cast('2013-06-10' AS DATE)");
 
         for (Map<String, Object> eventMap : eventsMap) {
             final Event event = new Event();
             event.setShKey((String)eventMap.get("SHKey"));
             event.setEquipment((String)eventMap.get("equipment"));
-            event.setSource((String) eventMap.get("location"));
-            event.setDestination((String) eventMap.get("destn"));
+            event.setSource((String) eventMap.get("source"));
+            event.setDestination((String) eventMap.get("destination"));
             event.setMeasureCode((String)eventMap.get("Meascode"));
-            event.setMeasureValue(new BigDecimal((Double)eventMap.get("measurevalue")));
+            event.setMeasureValue(new BigDecimal((Double)eventMap.get("measurevalue"), new MathContext(2)));
             executorService.execute(new Runnable() {
                 @Override
                 public void run() {
-                    hazelcastInstance.<String, Event>getMap(EVENT_MAP).put(event.getShKey(), event);
+
+                    hazelcastInstance.<Long, Event>getMap(EVENT_MAP).put(atomicLong.getAndIncrement(), event);
                     try {
-                        Thread.sleep(5000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
