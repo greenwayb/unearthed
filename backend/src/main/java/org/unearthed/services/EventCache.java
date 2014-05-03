@@ -2,6 +2,7 @@ package org.unearthed.services;
 
 import com.hazelcast.core.EntryListener;
 import com.hazelcast.core.HazelcastInstance;
+import com.hazelcast.query.SqlPredicate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unearthed.cache.MapNames;
@@ -24,7 +25,16 @@ public class EventCache implements MapNames {
         hazelcastInstance.<Long, Event>getMap(EVENT_MAP).put(atomicLong.getAndIncrement(), event);
     }
 
-    public void addEntryListener(EntryListener<Long, Event> entryListener) {
-        hazelcastInstance.<Long, Event>getMap(EVENT_MAP).addEntryListener(entryListener, true);
+    public String  addEntryListener(EntryListener<Long, Event> entryListener) {
+        return hazelcastInstance.<Long, Event>getMap(EVENT_MAP).addEntryListener(entryListener, true);
     }
+
+    public String addContinuousQuery(EntryListener<Long, Event> entryListener, String sql) {
+        return hazelcastInstance.<Long, Event>getMap(EVENT_MAP).addEntryListener(entryListener, new SqlPredicate(sql), true);
+    }
+
+    public void removeContinuousQuery(String id) {
+        hazelcastInstance.<Long, Event>getMap(EVENT_MAP).removeEntryListener(id);
+    }
+
 }
