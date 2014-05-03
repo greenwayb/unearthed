@@ -1,0 +1,18 @@
+<div class="page page-tasks">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="task-container" data-ng-controller="trackCtrl">
+
+            <ul class="task-list list-unstyled">
+                <li data-ng-repeat="track in tracks">
+                                    <span class="view">
+                                        <label data-ng-dblclick="edit(track)">{{track.username}}</label>
+                                        <label data-ng-dblclick="edit(track)">{{track.equipmentId}}</label>
+                                        <!--  {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}, -->
+                                    </span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    </div>
+</div>
