@@ -1,5 +1,5 @@
 <!-- Validation : http://dotnetspeak.com/2013/05/combining-twitter-bootstrap-and-angular-validation -->
-<div class="well">
+<div class="well" data-ng-controller="trackCtrl">
     <legend>Create</legend>
 
     <!--form data-ng-submit="add()" class="add-task">
@@ -12,8 +12,11 @@
             <span class="glyphicon glyphicon-plus"></span>
         </a>
     </form-->
-    <section class="task-container" data-ng-controller="trackCtrl">
-    <form name="createForm" novalidate role="form" class="form-horizontal" ng-submit="save(taskData)">
+
+    <section class="task-container" >
+
+
+    <form name="createForm" novalidate role="form" class="form-horizontal">
     <!--<form name="createForm" novalidate role="form" class="form-horizontal" ng-submit="pushed()">-->
         <label>Username</label>
 
@@ -50,7 +53,7 @@
             </div>
             <div class="col-md-8">
                 <input class="form-control" type="text" placeholder="45.6" size="30"
-                       ng-model="taskData.measureValue" id="measureValue" required>
+                       ng-model="taskData.measureValue" id="measureValue" value="45.5" required>
             </div>
         </div>
 
@@ -61,7 +64,7 @@
 
             </div>
             <div class="col-md-8">
-                <input class="form-control" type="text" placeholder="ARG-N35 A106" size="30"
+                <input class="form-control" type="text" placeholder="ARG-N35 A106" value="ARG-N35 A106" size="30"
                        ng-model="taskData.source" id="source" required>
             </div>
         </div>
@@ -83,140 +86,41 @@
 
 
     </form>
-    </section>
-    <pre>taskData = {{taskData | json}}</pre>
-</div>
+    <!--<pre>taskData = {{taskData | json}}</pre>-->
+
+        <div class="row">
+            <div class="col-md-12">
+                    <ul class="task-list list-unstyled">
+                        <li data-ng-repeat="track in tracks | limitTo:-3 ">
+                                    <span class="view">
+                                        <!--<label>1 {{track}}</label>-->
+                                        <!--<label>{{track.equipmentId}}</label>-->
+                                        <!--  {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}, -->
+                                    </span>
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+
+
+
 
 <div class="page page-tasks">
     <div class="row">
         <div class="col-md-12">
-            <section class="task-container" data-ng-controller="trackCtrl">
-
+                <!--<pre>tracks = {{tracks | json | limitTo:3}}</pre>-->
                 <ul class="task-list list-unstyled">
-                    <li data-ng-repeat="track in tracks">
+                    <li data-ng-repeat="track in tracks | limitTo:-4">
                                     <span class="view">
-                                        <label data-ng-dblclick="edit(track)">{{track.username}}</label>
-                                        <label data-ng-dblclick="edit(track)">{{track.equipmentId}}</label>
+                                        <label>{{track}}</label>
+                                        <label>{{track.equipmentId}}</label>
                                         <!--  {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}, -->
                                     </span>
                     </li>
                 </ul>
-            </section>
         </div>
     </div>
 </div>
 
 <!-- http://dotnetspeak.com/2013/05/combining-twitter-bootstrap-and-angular-validation -->
-
-
-
-<div class="page page-tasks">
-
-    <div class="row">
-        <div class="col-md-12 col-sm-6">
-
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12">
-            <section class="task-container" data-ng-controller="trackCtrl">
-
-                <form data-ng-submit="add()" class="add-task">
-                    <input type="text"
-                           placeholder="GF What needs to be done?"
-                           class="form-control"
-                           data-ng-model="newTask"
-                           autofocus>
-                    <a type="submit" class="submit-button" data-ng-click="add()">
-                        <span class="glyphicon glyphicon-plus"></span>
-                    </a>
-                </form>
-
-                <section>
-                    <ul class="filters list-inline nav nav-tabs">
-                        <li data-ng-class="{active: statusFilter == ''}">
-                            <a href="" 
-                               data-toggle="tab"
-                               data-ng-click="filter('all')"
-                               >All</a>
-                        </li>
-                        <li data-ng-class="{active: statusFilter.completed == false }">
-                            <a href=""
-                               data-toggle="tab"
-                               data-ng-click="filter('active')"
-                               >Active</a>
-                        </li>
-                        <li data-ng-class="{active: statusFilter.completed == true }">
-                            <a href=""
-                               data-toggle="tab"
-                               data-ng-click="filter('completed')"
-                               >Completed</a>
-                        </li>
-                    </ul>
-                </section>
-
-                <section  data-ng-cloak>
-                    <ul class="task-list list-unstyled">
-                        <li data-ng-repeat="task in tasks | filter:statusFilter track by $index" 
-                            data-ng-class="{completed: task.completed, editing: task == editedTask}">
-                            <span class="view">
-                                <input type="checkbox"
-                                       class="toggle-task"
-                                       data-ng-model="task.completed"
-                                       data-ng-change="completed(task)">
-                                <label data-ng-dblclick="edit(task)">{{task.title}}</label>
-                                <span class="glyphicon glyphicon-pencil"
-                                      data-ng-click="edit(task)"></span>
-                                <span class="glyphicon glyphicon-remove"
-                                      data-ng-click="remove(task, $index)"
-                                      ></span>
-                            </span>
-                            <form data-ng-submit="doneEditing(task, $index)">
-                                <input type="text"
-                                       class="edit form-control"
-                                       data-ng-trim="false"
-                                       data-ng-model="task.title"
-                                       data-ng-blur="doneEditing(task, $index)"
-                                       data-task-focus="task == editedTask">
-                            </form>
-                        </li>
-                    </ul>
-                </section>
-
-                <footer class="task-footer">
-                    <ul class="list-inline clearfix">
-                        <li class="first-item">
-                            <input type="checkbox"
-                                   id="toggle-all"
-                                   data-ng-model="allChecked"
-                                   data-ng-change="markAll(allChecked)">
-                            <label for="toggle-all">Mark all as done</label>
-                        </li>
-                        <li class="text-center">
-                            <span>
-                                <strong>{{remainingCount}}</strong>
-                                <span class="text-muted"
-                                      data-ng-pluralize count="remainingCount"
-                                      when="{one: 'item left', other: 'items left'}"></span>
-                            </span>                            
-                        </li>
-                        <li class="text-right">
-                            <span class="clear-completed"
-                                  data-ng-click="clearCompleted()"
-                                  data-ng-show="remainingCount < tasks.length">Clear completed ({{tasks.length - remainingCount}})</span>                            
-                        </li>
-                    </ul>
-                </footer>
-                
-            </section>
-        </div>
-    </div>
-
-    <div class="callout callout-info">
-        <p>Tips:</p>
-        <p> - Double click the task (or click the edit icon on the right of the task) to edit, then click anywhere else done editing.</p>
-        <p> - Type a something needs to done, then press "return" key (or the plus icon on the left) to add a new task</p>
-        <p> - Click the remove icon on the right of the task to remove</p>
-    </div>
-</div>

@@ -1,127 +1,54 @@
 'use strict'
 
-angular.module('app.task', [])
+# app level module which depends on services and controllers
+angular.module('app.sse', [])
 
-.factory('taskStorage', ->
-    STORAGE_ID = 'tasks'
-    DEMO_TASKS = '[
-        {"title": "Finish homework", "completed": true},
-        {"title": "Make a call", "completed": true},
-        {"title": "Play games with friends", "completed": false},
-        {"title": "Shopping", "completed": false}
-
-    ]'
-
-    return {
-        get: ->
-            JSON.parse(localStorage.getItem(STORAGE_ID) || DEMO_TASKS )
-
-        put: (tasks)->
-            localStorage.setItem(STORAGE_ID, JSON.stringify(tasks))
-    }
+.factory('rooms', ->
+  SAMPLE_ROOMS = '[
+          {"name": "Room 1", "value": "room1"},
+          {"name": "Room 2", "value": "room2"}
+      ]'
+  return {
+   get: ->
+      JSON.parse(SAMPLE_ROOMS);
+  }
 )
 
-# cusor focus when dblclick to edit
-.directive('taskFocus', [
-    '$timeout'
-    ($timeout) ->
-        return {
-            link: (scope, ele, attrs) ->
-                scope.$watch(attrs.taskFocus, (newVal) ->
-                    if newVal
-                        $timeout( ->
-                            ele[0].focus()
-                        , 0, false)
-                )
-        }
-])
+.controller('ChatCtrl', [
+    '$scope', '$http', '$log', 'rooms', 'pollingService'
+    ($scope, $http, $log, rooms, pollingService) ->
 
-.controller('taskCtrl', [
-    '$scope', 'taskStorage', 'filterFilter', '$rootScope', 'logger'
-    ($scope, taskStorage, filterFilter, $rootScope, logger) ->
+      $log.log("hi0")
+      $scope.rooms = rooms.get()
 
-        tasks = $scope.tasks = taskStorage.get()
+      pollingService.poll("myPoll","myMessage",1000)
 
-        $scope.newTask = ''
-        $scope.remainingCount = filterFilter(tasks, {completed: false}).length
-        $scope.editedTask = null
-        $scope.statusFilter = {completed: false}
+      $log.log("hi1")
+      $scope.msgs = []
+      $scope.inputText = ""
+      $log.log("hi2")
+#      $scope.user = "Jane Doe #" + Math.floor((Math.random() * 100) + 1)
+#      $scope.currentRoom = $scope.rooms[0]
 
-        $scope.filter = (filter) ->
-            switch filter
-                when 'all' then $scope.statusFilter = ''
-                when 'active' then $scope.statusFilter = {completed: false}
-                when 'completed' then $scope.statusFilter = {completed: true}
+    # change current room, restart EventSource connection
+      $scope.setCurrentRoom = (room)->
+#        $scope.editedTask = task
+        $scope.chatFeed.close();
+        $scope.msgs = [];
+        $scope.listen();
 
-        $scope.add = ->
-            newTask = $scope.newTask.trim()
+      $scope.addMsg = (msg) ->
+        $scope.$apply = () ->
+          $scope.msgs.push(JSON.parse(msg.data))
 
-            if newTask.length is 0
-                return
+    # http://localhost:8080/webapi/events
+      $scope.listen = ->
+#          $scope.chatFeed = new EventSource("http://localhost:8080/webapi/events");
+          $scope.chatFeed = new EventSource("/webapi/events");
+          $scope.chatFeed.addEventListener("message", $scope.addMsg, false);
 
-            tasks.push(
-                title: newTask
-                completed: false
-            )
-            logger.logSuccess('New task: "' + newTask + '" added')
+      $log.log("adding listener")
+      $scope.listen()
 
-            taskStorage.put(tasks)
 
-            $scope.newTask = ''
-            $scope.remainingCount++
-
-        $scope.edit = (task)->
-            $scope.editedTask = task
-
-        $scope.doneEditing = (task) ->
-            $scope.editedTask = null
-            task.title = task.title.trim()
-
-            if !task.title
-                $scope.remove(task)
-            else
-                logger.log('Task updated')
-            taskStorage.put(tasks)
-
-        $scope.remove = (task) ->
-            $scope.remainingCount -= if task.completed then 0 else 1
-            index = $scope.tasks.indexOf(task)
-            $scope.tasks.splice(index, 1)
-            taskStorage.put(tasks)
-            logger.logError('Task removed')
-
-        $scope.completed = (task) ->
-            $scope.remainingCount += if task.completed then -1 else 1
-            taskStorage.put(tasks)
-            if task.completed
-                if $scope.remainingCount > 0
-                    if $scope.remainingCount is 1
-                        logger.log('Almost there! Only ' + $scope.remainingCount + ' task left')
-                    else
-                        logger.log('Good job! Only ' + $scope.remainingCount + ' tasks left')
-                else
-                    logger.logSuccess('Congrats! All done :)')
-
-        $scope.clearCompleted = ->
-            $scope.tasks = tasks = tasks.filter( (val) ->
-                return !val.completed
-            )
-            taskStorage.put(tasks)
-
-        $scope.markAll = (completed)->
-            tasks.forEach( (task) ->
-                task.completed = completed
-            )
-            $scope.remainingCount = if completed then 0 else tasks.length
-            taskStorage.put(tasks)
-            if completed
-                logger.logSuccess('Congrats! All done :)')
-
-        $scope.$watch('remainingCount == 0', (val) ->
-            $scope.allChecked = val
-        )
-
-        $scope.$watch('remainingCount', (newVal, oldVal) ->
-            $rootScope.$broadcast('taskRemaining:changed', newVal) 
-        )
 ])

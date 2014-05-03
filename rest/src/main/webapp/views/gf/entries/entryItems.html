@@ -1,0 +1,20 @@
+Entry Items
+
+<div class="page page-tasks">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="task-container" data-ng-controller="entryCtrl">
+
+            <ul class="task-list list-unstyled">
+                <li data-ng-repeat="entry in entries">
+                                    <span class="view">
+                                        <label data-ng-dblclick="edit(entry)">{{entry.username}}</label>
+                                        <label data-ng-dblclick="edit(entry)">{{entry.equipmentId}}</label>
+                                        <!--  {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}, -->
+                                    </span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    </div>
+</div>

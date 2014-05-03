@@ -117,15 +117,15 @@ angular.module('app.chart.ctrls', [])
     '$scope'
     ($scope) ->
         $scope.mainData = [
-            {month: '2013-01', xbox: 294000, will: 136000, playstation: 244000}
-            {month: '2013-02', xbox: 228000, will: 335000, playstation: 127000}
-            {month: '2013-03', xbox: 199000, will: 159000, playstation: 130000}
-            {month: '2013-04', xbox: 174000, will: 160000, playstation: 82000}
-            {month: '2013-05', xbox: 255000, will: 318000, playstation: 82000}
-            {month: '2013-06', xbox: 298400, will: 401800, playstation: 98600}
-            {month: '2013-07', xbox: 370000, will: 225000, playstation: 159000}
-            {month: '2013-08', xbox: 376700, will: 303600, playstation: 130000}
-            {month: '2013-09', xbox: 527800, will: 301000, playstation: 119400}
+            {month: '2013-01', site1: 294000, site2: 136000, site3: 244000}
+            {month: '2013-02', site1: 228000, site2: 335000, site3: 127000}
+            {month: '2013-03', site1: 199000, site2: 159000, site3: 130000}
+            {month: '2013-04', site1: 174000, site2: 160000, site3: 82000}
+            {month: '2013-05', site1: 255000, site2: 318000, site3: 82000}
+            {month: '2013-06', site1: 298400, site2: 401800, site3: 98600}
+            {month: '2013-07', site1: 370000, site2: 225000, site3: 159000}
+            {month: '2013-08', site1: 376700, site2: 303600, site3: 130000}
+            {month: '2013-09', site1: 527800, site2: 301000, site3: 119400}
         ]
 
         $scope.simpleData = [

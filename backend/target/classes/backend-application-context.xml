@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.0.xsd
+http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util-4.0.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+">
+
+
+    <import resource="hazelcast-storage.xml" />
+
+
+    <context:property-placeholder location="classpath:entities.properties" ignore-resource-not-found="true"
+                                  ignore-unresolvable="true" system-properties-mode="OVERRIDE"/>
+
+    <context:annotation-config/>
+
+    <context:mbean-server id="mbean-server"/>
+    <context:mbean-export/>
+    <tx:annotation-driven/>
+
+    <context:component-scan base-package="org.unearthed.cache"/>
+    <context:component-scan base-package="org.unearthed.services"/>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName">
+            <value>net.sourceforge.jtds.jdbc.Driver</value>
+        </property>
+        <property name="url">
+            <value>jdbc:jtds:sqlserver://unearthed-sql.cbh9231oc3xr.ap-southeast-2.rds.amazonaws.com:1433/HCK_PITRAMReporting</value>
+        </property>
+        <property name="username">
+            <value>unearthed-dev</value>
+        </property>
+        <property name="password">
+            <value>unearthed123</value>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+          p:persistenceXmlLocation="classpath*:persistence.xml"
+          p:persistenceUnitName="unearthed"
+          p:dataSource-ref="dataSource"
+          p:jpaVendorAdapter-ref="jpaVendorAdapter"
+          p:jpaDialect-ref="jpaDialect"
+          p:loadTimeWeaver-ref="loadTimeWeaver">
+        <property name="jpaPropertyMap">
+            <util:map>
+                <entry key="eclipselink.ddl-generation" value="create-tables"/>
+                <entry key="eclipselink.weaving" value="false"/>
+            </util:map>
+        </property>
+    </bean>
+
+    <bean id="jpaDialect" class="org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect"/>
+
+    <bean id="jpaVendorAdapter" class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter"
+          p:showSql="true"
+          p:generateDdl="false"/>
+
+    <bean id="loadTimeWeaver" class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver"/>
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+</beans>

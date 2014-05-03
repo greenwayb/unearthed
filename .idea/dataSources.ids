@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="SQL Server - HCK_PITRAMReporting@unearthed-sql.cbh9231oc3xr.ap-southeast-2.rds.amazonaws.com" uuid="9effc46b-fdb3-45f4-966f-8893e7429043">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="SQL Server - @192.168.2.151" uuid="8870a2c8-93e7-48c1-8ab2-6be0cf4c6517">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

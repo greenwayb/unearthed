@@ -3,16 +3,16 @@
 angular.module('app.track', [])
 
 .factory('trackStorage', ->
-    STORAGE_ID = 'tracks'
+    STORAGE_ID = 'tracks2'
 
     # gf.track.username (USERNAME), gf.track.equipmentId (TR019), MEASURECODE=TONNE, gf.track.mesaureValue (45.6), gf.track.source (ARG-N35 A106), gf.track.destination (ARG-AUG1)
 
     DEMO_TRACKS = '[
-        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
-        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
-        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
-        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
-        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.6", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}
+        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.1", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
+        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.2", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
+        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.3", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
+        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.4", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"},
+        {"username": "dave", "equipmentId": "TR019", "measureCode" : "TONNE", "measureValue" : "45.5", "source" : "ARG-N35 A106", "destination" : "ARG-AUG1"}
     ]'
 
     return {
@@ -28,8 +28,16 @@ angular.module('app.track', [])
     '$scope', 'trackStorage', '$rootScope', 'logger', '$log'
     ($scope, trackStorage, $rootScope, logger, $log) ->
 
-
       tasks = $scope.tracks = trackStorage.get()
+
+      $scope.taskData = {
+        username: "Ben",
+        equipmentId: "TR019",
+        measureCode: "TONNE",
+        measureValue: "34.8",
+        source: "ARG-N35 A107",
+        destination: "ARG-AUG1"
+      }
 
 #      task = {
 #        username: "default",
@@ -44,7 +52,7 @@ angular.module('app.track', [])
         logger.logSuccess('Pushed or was i?')
 
       $scope.save = (taskData) ->
-        $log.info('taskData ='+taskData);
+        $log.info('taskData ='+JSON.stringify(taskData));
         $scope.newTaskData = taskData
         # task = $scope.taskData
 
@@ -67,14 +75,15 @@ angular.module('app.track', [])
 #          destination : ""
 #        )
        # logger.logSuccess('New task: "' + task.measureValue + '"tonnes added')
-        logger.logSuccess('New task: "' + taskData + '"tonnes added')
-
+        logger.logSuccess('New task: "' + taskData.measureValue + '"tonnes added')
         trackStorage.put(tasks)
+        tasks = $scope.tracks = trackStorage.get()
 
-        $scope.username = ''
-        $scope.mesaureValue = ''
 
-        $scope.remainingCount++
+      $scope.username = ''
+      $scope.mesaureValue = ''
+
+      $scope.remainingCount++
 
 ])
 

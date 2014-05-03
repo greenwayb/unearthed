@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="653200719">
+    <data-source source="LOCAL" name="SQL Server - @L80054517" uuid="da6ec2e3-1be5-4d46-aced-10dd5997211a">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://L80054517:1433</jdbc-url>
+      <user-name>greenwayb</user-name>
+      <user-password>dfc9dfd8dfd3dfc5dfc6dfc3dfdedfcfdf93df93</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
