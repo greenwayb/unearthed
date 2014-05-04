@@ -50,6 +50,8 @@
           <element id="library" level="project" name="Maven: org.apache.felix:org.apache.felix.scr.annotations:1.9.6" />
           <element id="library" level="project" name="Maven: net.sf.gwt-widget:gwt-sl:0.1.5" />
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:1.8.6" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="archive" name="backend-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="backend" />
           </element>

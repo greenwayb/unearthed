@@ -16,4 +16,9 @@ public class LineChartPresenterFactory {
     public LineChartPresenter newLineChartPresenter() {
         return injector.getLineChartPresenter();
     }
+
+    public LineChartPresenter newCycleLineChartPresenter() {
+        return injector.getLineChartPresenter();
+    }
+
 }

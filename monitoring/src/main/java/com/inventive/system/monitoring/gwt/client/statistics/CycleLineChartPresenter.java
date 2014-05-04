@@ -36,7 +36,7 @@ import java.util.Map;
 
 /**
  */
-public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.View>   {
+public class CycleLineChartPresenter extends AbstractMvpPresenter<CycleLineChartPresenter.View>   {
 
     @ImplementedBy(LineChartView.class)
     public static interface View extends MvpView {
@@ -65,11 +65,11 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
 
 
     @Inject
-    public LineChartPresenter(View view,
-                              ChartHeaderPresenter chartHeaderPresenter,
-                              StreamingService streamingService,
-                              ActionServiceAsync actionServiceAsync,
-                              EditChartPresenter editChartPresenter) {
+    public CycleLineChartPresenter(View view,
+                                   ChartHeaderPresenter chartHeaderPresenter,
+                                   StreamingService streamingService,
+                                   ActionServiceAsync actionServiceAsync,
+                                   EditChartPresenter editChartPresenter) {
         super(view);
         this.chartHeaderPresenter = chartHeaderPresenter;
         this.streamingService = streamingService;
@@ -211,6 +211,7 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
             }
 
             Date date = new Date();
+//            Date date = msg.getEvent().getEventDateTime();
             if (null == rowIndex) {
                 rowIndex = data.getNumberOfRows();
                 rowIndexes.put(date, rowIndex);
@@ -234,37 +235,44 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
 
             viz.draw(data, options);
 
-        }
-    }
 
-    public void updateData(ValueMessage msg) {
-        if (null != msg) {
 
-            Date date = new Date();
-            Integer rowIndex = data.getNumberOfRows();
-            rowIndexes.put(date, rowIndex);
-            data.addRow();
-            data.setValue(rowIndex, 0, date);
-            Integer index = columnIndexes.get(msg.getGwtFilterKey());
-            if (index == null) {
-                index = ++columnIndex;
-                data.addColumn(AbstractDataTable.ColumnType.NUMBER, msg.getGwtFilterKey().getDisplayName());
-                columnIndexes.put(msg.getGwtFilterKey(), columnIndex);
-            }
-            //Now we need to set all other columns to null
-//            for (int x=0; x< data.getNumberOfColumns()-1; x++) {
-//                if (index != x) {
-//                    data.setValueNull(rowIndex, x);
+
+//
+//            for (NumberStatisticMessage.TimeAndValue timeAndValue : msg.getValues()) {
+//                try {
+//                    @SuppressWarnings("deprecation")
+//                    TimeOfDay timeOfDay = new TimeOfDay(timeAndValue.getTime().getHours(), timeAndValue.getTime().getMinutes(), timeAndValue.getTime().getSeconds(), 0);
+//                    Integer rowIndex = rowIndexes.get(timeOfDay);
+//                    if (null == rowIndex) {
+//                        rowIndex = data.getNumberOfRows();
+//                        rowIndexes.put(timeOfDay, rowIndex);
+//                        data.addRow();
+//                    }
+//                    data.setValue(rowIndex, 0, timeOfDay);
+//                    Integer index = columnIndexes.get(msg.getIdentifier());
+//                    if (index == null) {
+//                        index = ++columnIndex;
+//                        data.addColumn(AbstractDataTable.ColumnType.NUMBER, msg.getIdentifier().getDisplayName());
+//                        columnIndexes.put(msg.getIdentifier(), columnIndex);
+//                    }
+//
+//                    //Now we need to set all other columns to null
+////                    for (int x=0; x< data.getNumberOfColumns()-1; x++) {
+////                        if (index != x) {
+////                            data.setValueNull(rowIndex, x);
+////                        }
+////                    }
+//                    data.setValue(rowIndex, index, timeAndValue.getValue().doubleValue());
+//
+//                } catch (TimeOfDay.BadTimeException e) {
+//                    GWT.log("Error: " + e.getMessage());
 //                }
 //            }
-
-            data.setValue(rowIndex, index, msg.getValue());
-
-            viz.draw(data, options);
-
+//            viz.draw(data, options);
+//
         }
     }
-
 
     public Widget getWidget() {
         return getView().asWidget();
@@ -302,7 +310,6 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
 
         streamingService.addHandler(streamHandler = new MyStreamMessageHandler(), EventMessage.class);
         streamingService.addHandler(streamHandler = new MyStreamMessageHandler(), CycleMessage.class);
-        streamingService.addHandler(streamHandler = new MyStreamMessageHandler(), ValueMessage.class);
         streamingService.addHandler(new StreamMessageHandler() {
             @Override
             public void handleMessage(StreamMessage message) {
@@ -339,11 +346,6 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
             }
             else if (message instanceof EventMessage) {
                 EventMessage msg = (EventMessage) message;
-                if (chart.getKeys().contains(msg.getGwtFilterKey())) {
-                    updateData(msg);
-                }
-            } else if (message instanceof ValueMessage) {
-                ValueMessage msg = (ValueMessage) message;
                 if (chart.getKeys().contains(msg.getGwtFilterKey())) {
                     updateData(msg);
                 }

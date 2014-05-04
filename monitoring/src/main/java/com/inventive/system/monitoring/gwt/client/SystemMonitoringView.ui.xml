@@ -33,7 +33,7 @@
         <g:tab>
             <g:header>Dashboard</g:header>
             <g:HTMLPanel>
-                <g:Button ui:field="addWidgetButton" text="Add Widget" />
+                <g:Button ui:field="addEventButton" text="Add Widget" />
                 <g:SimplePanel ui:field="dragDropWrapperPanel" addStyleNames="{style.wrapper}"/>
             </g:HTMLPanel>
         </g:tab>

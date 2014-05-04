@@ -153,6 +153,7 @@ public class EditChartPresenter extends AbstractMvpPresenter<EditChartPresenter.
         return chart;
     }
 
+
     public HandlerRegistration addOkHandler(OkHandler handler) {
         return eventBus.addHandler(OkEvent.TYPE, handler);
     }

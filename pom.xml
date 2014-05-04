@@ -208,6 +208,12 @@
             	<version>1.9.6</version>
             </dependency>
 
+            <dependency>
+            	<groupId>commons-beanutils</groupId>
+            	<artifactId>commons-beanutils</artifactId>
+            	<version>1.9.1</version>
+            </dependency>
+
             <!-- Quartz framework -->
            	<dependency>
            		<groupId>org.quartz-scheduler</groupId>

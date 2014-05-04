@@ -5,21 +5,21 @@ import com.inventive.system.monitoring.gwt.client.service.streaming.StreamMessag
 /**
  * User: grant
  */
-public class EventMessage implements StreamMessage {
+public class ValueMessage implements StreamMessage {
 
-    private GwtEvent event;
+    private String value;
     private GwtFilterKey gwtFilterKey;
 
-    public EventMessage() {
+    public ValueMessage() {
     }
 
-    public EventMessage(GwtFilterKey key, GwtEvent event) {
-        this.gwtFilterKey = key;
-        this.event = event;
+    public ValueMessage(GwtFilterKey gwtFilterKey, String value) {
+        this.gwtFilterKey = gwtFilterKey;
+        this.value = value;
     }
 
-    public GwtEvent getEvent() {
-        return event;
+    public String getValue() {
+        return value;
     }
 
     public GwtFilterKey getGwtFilterKey() {

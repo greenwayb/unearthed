@@ -76,6 +76,8 @@
     <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.scr.annotations:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: net.sf.gwt-widget:gwt-sl:0.1.5" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:1.8.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.1" level="project" />
     <orderEntry type="module" module-name="backend" />

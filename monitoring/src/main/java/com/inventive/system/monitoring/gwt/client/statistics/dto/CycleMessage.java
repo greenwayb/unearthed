@@ -1,24 +1,23 @@
 package com.inventive.system.monitoring.gwt.client.statistics.dto;
 
-import com.inventive.system.monitoring.gwt.client.service.streaming.StreamMessage;
 
 /**
  * User: grant
  */
-public class EventMessage implements StreamMessage {
+public class CycleMessage extends EventMessage {
 
-    private GwtEvent event;
+    private GwtCycle event;
     private GwtFilterKey gwtFilterKey;
 
-    public EventMessage() {
+    private CycleMessage() {
     }
 
-    public EventMessage(GwtFilterKey key, GwtEvent event) {
+    public CycleMessage(GwtFilterKey key, GwtCycle event) {
         this.gwtFilterKey = key;
         this.event = event;
     }
 
-    public GwtEvent getEvent() {
+    public GwtCycle getEvent() {
         return event;
     }
 

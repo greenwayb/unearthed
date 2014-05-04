@@ -82,6 +82,7 @@ public class CyclesUpdater implements MapNames{
                 @Override
                 public void run() {
 
+                    System.out.println(cycle);
                     hazelcastInstance.<Long, Event>getMap(CYCLE_MAP).put(atomicLong.getAndIncrement(), cycle);
                     try {
                         Thread.sleep(1000);
