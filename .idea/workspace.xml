@@ -2,49 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/ClientNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/CycleLineChartPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/CycleMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/StorageNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/ValueMessage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtStatisticDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/callable/AddPublisherCallable.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterAction.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/ConversionUtils.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/ConversionUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/Cycle.java" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/Cycle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/CyclesUpdater.java" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/CyclesUpdater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/EventMessage.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/EventMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventUpdater.java" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventUpdater.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtEvent.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenterFactory.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenterFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/resources/hazelcast-storage.xml" afterPath="$PROJECT_DIR$/backend/src/main/resources/hazelcast-storage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/monitoring.iml" afterPath="$PROJECT_DIR$/monitoring/monitoring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/monitoring_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/pom.xml" afterPath="$PROJECT_DIR$/monitoring/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unearthed.iws" />
@@ -91,8 +57,8 @@
       <file leaf-file-name="EventsFilterManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="690" max-vertical-offset="3420">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6923077" vertical-offset="690" max-vertical-offset="3420">
+              <caret line="73" column="62" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3376#3384#0" expanded="true" />
@@ -678,52 +644,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="statistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1331,7 +1251,7 @@
       <workItem from="1399155915728" duration="7061000" />
       <workItem from="1399167649647" duration="5279000" />
       <workItem from="1399173002895" duration="214000" />
-      <workItem from="1399173284764" duration="10877000" />
+      <workItem from="1399173284764" duration="11113000" />
     </task>
     <task id="LOCAL-00001" summary="Add monitoring webapp">
       <created>1399156360590</created>
@@ -1341,11 +1261,15 @@
       <created>1399166415789</created>
       <updated>1399166415789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working queries">
+      <created>1399184279722</created>
+      <updated>1399184279722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46422000" />
+    <option name="totallyTimeSpent" value="46658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1135" extended-state="6" />
@@ -1401,7 +1325,8 @@
     <MESSAGE value="before stripping controller down" />
     <MESSAGE value="Add monitoring webapp" />
     <MESSAGE value="Latest changes includng REST changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Latest changes includng REST changes" />
+    <MESSAGE value="Working queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1888,8 +1813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="690" max-vertical-offset="3420">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6923077" vertical-offset="690" max-vertical-offset="3420">
+          <caret line="73" column="62" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3376#3384#0" expanded="true" />
