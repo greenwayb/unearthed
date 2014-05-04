@@ -4,12 +4,9 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.logical.shared.HasSelectionHandlers;
-import com.google.gwt.event.logical.shared.SelectionEvent;
-import com.google.gwt.event.logical.shared.SelectionHandler;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.event.shared.HandlerRegistration;
 import com.google.gwt.user.client.ui.HasEnabled;
-import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.visualization.client.VisualizationUtils;
 import com.google.gwt.visualization.client.visualizations.corechart.LineChart;
@@ -20,20 +17,21 @@ import com.inventive.system.monitoring.gwt.client.dialog.CancelHandler;
 import com.inventive.system.monitoring.gwt.client.dialog.OkEvent;
 import com.inventive.system.monitoring.gwt.client.dialog.OkHandler;
 import com.inventive.system.monitoring.gwt.client.dnd.DragDropGridPresenter;
-import com.inventive.system.monitoring.gwt.client.dnd.HasPosition;
 import com.inventive.system.monitoring.gwt.client.mvp.AbstractMvpPresenter;
 import com.inventive.system.monitoring.gwt.client.mvp.MvpView;
 import com.inventive.system.monitoring.gwt.client.service.action.AbstractAsyncCallback;
 import com.inventive.system.monitoring.gwt.client.service.action.ActionServiceAsync;
 import com.inventive.system.monitoring.gwt.client.service.streaming.StreamingService;
-import com.inventive.system.monitoring.gwt.client.statistics.DescriptorsPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.EditChartPresenter;
-import com.inventive.system.monitoring.gwt.client.statistics.LineChartPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.LineChartPresenterFactory;
-import com.inventive.system.monitoring.gwt.client.statistics.commands.*;
+import com.inventive.system.monitoring.gwt.client.statistics.commands.GetChartsAction;
+import com.inventive.system.monitoring.gwt.client.statistics.commands.GetChartsResult;
 import com.inventive.system.monitoring.gwt.client.statistics.dto.Chart;
-import com.inventive.system.monitoring.gwt.client.statistics.dto.JmxStatisticKey;
-import com.inventive.system.monitoring.gwt.client.statistics.events.*;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.GwtFilterKey;
+import com.inventive.system.monitoring.gwt.client.statistics.events.AddChartEvent;
+import com.inventive.system.monitoring.gwt.client.statistics.events.AddChartEventHandler;
+import com.inventive.system.monitoring.gwt.client.statistics.events.LoggedInEvent;
+import com.inventive.system.monitoring.gwt.client.statistics.events.LoggedInEventHandler;
 
 import java.util.ArrayList;
 
@@ -46,7 +44,7 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     public static interface View extends MvpView {
         HasClickHandlers getAddWidgetButton();
         HasEnabled getAddButtonEnabled();
-        HasOneWidget getDescriptorsWrapperPanel();
+//        HasOneWidget getDescriptorsWrapperPanel();
         HasSelectionHandlers<Integer> getTabSelectionHandlers();
         void setDragDopView(IsWidget dragDropView);
 
@@ -61,7 +59,6 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     private EventBus eventBus;
     private boolean loggedIn = false;
     private boolean visualizationsLoaded = false;
-    private DescriptorsPresenter descriptorsPresenter;
     private DragDropGridPresenter dragDropGridPresenter;
 
     @Inject
@@ -70,14 +67,12 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
                                      ActionServiceAsync actionServiceAsync,
                                      StreamingService streamingService,
                                      EventBus eventBus,
-                                     DescriptorsPresenter descriptorsPresenter,
                                      DragDropGridPresenter dragDropGridPresenter) {
         super(view);
         this.actionServiceAsync = actionServiceAsync;
         this.editChartPresenter = editChartPresenter;
         this.streamingService = streamingService;
         this.eventBus = eventBus;
-        this.descriptorsPresenter = descriptorsPresenter;
         this.dragDropGridPresenter = dragDropGridPresenter;
         init();
     }
@@ -85,7 +80,7 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     public void init() {
 //        getView().getAddButtonEnabled().setEnabled(false);
 
-        getView().getDescriptorsWrapperPanel().setWidget(descriptorsPresenter.getView());
+//        getView().getDescriptorsWrapperPanel().setWidget(descriptorsPresenter.getView());
 
         Runnable onLoadCallback = new Runnable() {
             public void run() {
@@ -125,12 +120,12 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
             }
         });
 
-        getView().getTabSelectionHandlers().addSelectionHandler(new SelectionHandler<Integer>() {
-            @Override
-            public void onSelection(SelectionEvent<Integer> event) {
-                descriptorsPresenter.resize();
-            }
-        });
+//        getView().getTabSelectionHandlers().addSelectionHandler(new SelectionHandler<Integer>() {
+//            @Override
+//            public void onSelection(SelectionEvent<Integer> event) {
+//                descriptorsPresenter.resize();
+//            }
+//        });
 
         eventBus.addHandler(AddChartEvent.TYPE, new AddChartEventHandler() {
             @Override
@@ -144,7 +139,7 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
                 });
                 editChartPresenter.reset();
                 Chart chart = new Chart();
-                chart.setKeys(new ArrayList<JmxStatisticKey>(event.getKeys()));
+                chart.setKeys(new ArrayList<GwtFilterKey>(event.getKeys()));
                 editChartPresenter.setChart(chart);
                 editChartPresenter.show();
 
@@ -201,49 +196,49 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     }
 
     private void addSubscription(final Chart chart) {
-        actionServiceAsync.execute(new AddSubscriptionAction(chart.getKeys(), streamingService.getSessionId()), new AbstractAsyncCallback<AddSubscriptionResult>() {
-            @Override
-            public void onSuccess(AddSubscriptionResult result) {
-                final LineChartPresenter presenter = lineChartPresenterFactory.newLineChartPresenter();
-                presenter.addChartClosedEventHandler(new ChartClosedEventHandler() {
-                    @Override
-                    public void chartClosed(ChartClosedEvent event) {
-                        actionServiceAsync.execute(new RemoveChartAction(presenter.getChart()), new AbstractAsyncCallback<RemoveChartResult>() {
-                            @Override
-                            public void onSuccess(RemoveChartResult result) {
-                                dragDropGridPresenter.removeWidget(presenter.getWidget(), chart);
-                                presenter.setDragController(null);
-                            }
-                        });
-                    }
-                });
-                presenter.createChart(chart);
-
-                dragDropGridPresenter.addWidget(presenter.getWidget(), new HasPosition() {
-
-                    @Override
-                    public int getColumn() {
-                        return chart.getColumn();
-                    }
-
-                    @Override
-                    public int getRow() {
-                        return chart.getRow();
-                    }
-
-                    @Override
-                    public void setPosition(int row, int column) {
-                        chart.setPosition(row, column);
-                        saveChartChart(chart, new SaveChartCallback() {
-                            @Override
-                            public void onSuccess(Chart savedChart) {
-                                presenter.setChart(savedChart);
-                            }
-                        });
-                    }
-                });
-            }
-        });
+//        actionServiceAsync.execute(new AddSubscriptionAction(chart.getKeys(), streamingService.getSessionId()), new AbstractAsyncCallback<AddSubscriptionResult>() {
+//            @Override
+//            public void onSuccess(AddSubscriptionResult result) {
+//                final LineChartPresenter presenter = lineChartPresenterFactory.newLineChartPresenter();
+//                presenter.addChartClosedEventHandler(new ChartClosedEventHandler() {
+//                    @Override
+//                    public void chartClosed(ChartClosedEvent event) {
+//                        actionServiceAsync.execute(new RemoveChartAction(presenter.getChart()), new AbstractAsyncCallback<RemoveChartResult>() {
+//                            @Override
+//                            public void onSuccess(RemoveChartResult result) {
+//                                dragDropGridPresenter.removeWidget(presenter.getWidget(), chart);
+//                                presenter.setDragController(null);
+//                            }
+//                        });
+//                    }
+//                });
+//                presenter.createChart(chart);
+//
+//                dragDropGridPresenter.addWidget(presenter.getWidget(), new HasPosition() {
+//
+//                    @Override
+//                    public int getColumn() {
+//                        return chart.getColumn();
+//                    }
+//
+//                    @Override
+//                    public int getRow() {
+//                        return chart.getRow();
+//                    }
+//
+//                    @Override
+//                    public void setPosition(int row, int column) {
+//                        chart.setPosition(row, column);
+//                        saveChartChart(chart, new SaveChartCallback() {
+//                            @Override
+//                            public void onSuccess(Chart savedChart) {
+//                                presenter.setChart(savedChart);
+//                            }
+//                        });
+//                    }
+//                });
+//            }
+//        });
     }
 
     private void saveChartChart(final Chart chart, final SaveChartCallback callback) {

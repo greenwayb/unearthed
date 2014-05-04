@@ -5,6 +5,5 @@ import com.inventive.system.monitoring.gwt.client.service.action.Result;
 /**
  * User: grant
  */
-public class AddSubscriptionResult implements Result {
-
+public class AddFilterResult implements Result {
 }

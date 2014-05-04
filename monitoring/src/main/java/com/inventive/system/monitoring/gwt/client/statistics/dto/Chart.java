@@ -14,7 +14,7 @@ public class Chart implements IsSerializable, HasPosition {
     private String title;
     private int row=0;
     private int column=0;
-    private List<JmxStatisticKey> keys;
+    private List<GwtFilterKey> keys;
 
     public Chart() {
     }
@@ -23,7 +23,7 @@ public class Chart implements IsSerializable, HasPosition {
         this.id = id;
     }
 
-    public Chart(Integer id, List<JmxStatisticKey> keys) {
+    public Chart(Integer id, List<GwtFilterKey> keys) {
         this.id = id;
         this.keys = keys;
     }
@@ -44,11 +44,11 @@ public class Chart implements IsSerializable, HasPosition {
         this.title = title;
     }
 
-    public List<JmxStatisticKey> getKeys() {
+    public List<GwtFilterKey> getKeys() {
         return keys;
     }
 
-    public void setKeys(List<JmxStatisticKey> keys) {
+    public void setKeys(List<GwtFilterKey> keys) {
         this.keys = keys;
     }
 

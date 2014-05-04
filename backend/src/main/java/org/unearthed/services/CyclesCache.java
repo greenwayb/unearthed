@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * User: grant
  */
 @Service
-public class EventCache implements MapNames {
+public class CyclesCache implements MapNames {
 
     private AtomicLong atomicLong = new AtomicLong(0);
 
@@ -22,19 +22,19 @@ public class EventCache implements MapNames {
     HazelcastInstance hazelcastInstance;
 
     public void putEvent(Event event) {
-        hazelcastInstance.<Long, Event>getMap(EVENT_MAP).put(atomicLong.getAndIncrement(), event);
+        hazelcastInstance.<Long, Event>getMap(CYCLE_MAP).put(atomicLong.getAndIncrement(), event);
     }
 
     public String addEntryListener(EntryListener<Long, Event> entryListener) {
-        return hazelcastInstance.<Long, Event>getMap(EVENT_MAP).addEntryListener(entryListener, true);
+        return hazelcastInstance.<Long, Event>getMap(CYCLE_MAP).addEntryListener(entryListener, true);
     }
 
     public String addContinuousQuery(EntryListener<Long, Event> entryListener, String sql) {
-        return hazelcastInstance.<Long, Event>getMap(EVENT_MAP).addEntryListener(entryListener, new SqlPredicate(sql), true);
+        return hazelcastInstance.<Long, Event>getMap(CYCLE_MAP).addEntryListener(entryListener, new SqlPredicate(sql), true);
     }
 
     public void removeContinuousQuery(String id) {
-        hazelcastInstance.<Long, Event>getMap(EVENT_MAP).removeEntryListener(id);
+        hazelcastInstance.<Long, Event>getMap(CYCLE_MAP).removeEntryListener(id);
     }
 
 }

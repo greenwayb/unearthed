@@ -1,0 +1,29 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:style>
+
+        .left {
+            float: left;
+        }
+
+        .leftPanel {
+            width: 200px;
+        }
+
+    </ui:style>
+
+    <g:HTMLPanel ui:field="rootPanel">
+
+        <div>
+            <g:Label text="Display Name:" addStyleNames="{style.left} {style.leftPanel}"/>
+            <g:TextBox ui:field="displayNameTextBox" addStyleNames="{style.left}" />
+        </div>
+        <div>
+            <g:Label text="Filter:" addStyleNames="{style.left} {style.leftPanel}"/>
+            <g:TextBox ui:field="filterTextBox" addStyleNames="{style.left}" />
+        </div>
+        <g:Button ui:field="okButton" text="OK" />
+        <g:Button ui:field="cancelButton" text="Cancel" />
+    </g:HTMLPanel>
+</ui:UiBinder>

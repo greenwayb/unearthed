@@ -7,7 +7,6 @@ import com.inventive.system.monitoring.gwt.client.SystemMonitoringPresenter;
 import com.inventive.system.monitoring.gwt.client.dnd.DragDropGridPresenter;
 import com.inventive.system.monitoring.gwt.client.service.action.ActionServiceAsync;
 import com.inventive.system.monitoring.gwt.client.service.streaming.StreamingService;
-import com.inventive.system.monitoring.gwt.client.statistics.DescriptorsPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.LineChartPresenter;
 
 /**
@@ -21,7 +20,7 @@ public interface SystemMonitorGinInjector extends Ginjector {
     SystemMonitoringPresenter getSystemMonitoringPresenter();
     LineChartPresenter getLineChartPresenter();
     EventBus getEventBus();
-    DescriptorsPresenter getPublishersPresenter();
+//    DescriptorsPresenter getPublishersPresenter();
     DragDropGridPresenter getDragDropGridPresenter();
 
 }

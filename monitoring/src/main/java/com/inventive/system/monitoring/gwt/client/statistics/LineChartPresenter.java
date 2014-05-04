@@ -1,7 +1,6 @@
 package com.inventive.system.monitoring.gwt.client.statistics;
 
 import com.allen_sauer.gwt.dnd.client.*;
-import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.shared.EventBus;
@@ -13,25 +12,21 @@ import com.google.gwt.visualization.client.AbstractDataTable;
 import com.google.gwt.visualization.client.DataTable;
 import com.google.gwt.visualization.client.LegendPosition;
 import com.google.gwt.visualization.client.TimeOfDay;
+import com.google.gwt.visualization.client.visualizations.corechart.LineChart;
+import com.google.gwt.visualization.client.visualizations.corechart.Options;
 import com.google.inject.ImplementedBy;
 import com.google.inject.Inject;
-import com.inventive.system.monitoring.gwt.client.dialog.CancelEvent;
-import com.inventive.system.monitoring.gwt.client.dialog.CancelHandler;
 import com.inventive.system.monitoring.gwt.client.dialog.OkEvent;
 import com.inventive.system.monitoring.gwt.client.dialog.OkHandler;
 import com.inventive.system.monitoring.gwt.client.mvp.AbstractMvpPresenter;
 import com.inventive.system.monitoring.gwt.client.mvp.MvpView;
-import com.inventive.system.monitoring.gwt.client.service.action.AbstractAsyncCallback;
 import com.inventive.system.monitoring.gwt.client.service.action.ActionServiceAsync;
-import com.inventive.system.monitoring.gwt.client.service.streaming.NumberStatisticMessage;
-import com.google.gwt.visualization.client.visualizations.corechart.LineChart;
-import com.google.gwt.visualization.client.visualizations.corechart.Options;
 import com.inventive.system.monitoring.gwt.client.service.streaming.StreamMessage;
 import com.inventive.system.monitoring.gwt.client.service.streaming.StreamMessageHandler;
 import com.inventive.system.monitoring.gwt.client.service.streaming.StreamingService;
-import com.inventive.system.monitoring.gwt.client.statistics.commands.*;
 import com.inventive.system.monitoring.gwt.client.statistics.dto.Chart;
-import com.inventive.system.monitoring.gwt.client.statistics.dto.JmxStatisticKey;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.EventMessage;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.GwtFilterKey;
 import com.inventive.system.monitoring.gwt.client.statistics.dto.ResetMessage;
 import com.inventive.system.monitoring.gwt.client.statistics.events.ChartClosedEvent;
 import com.inventive.system.monitoring.gwt.client.statistics.events.ChartClosedEventHandler;
@@ -53,7 +48,7 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
     private LineChart viz;
     private int columnIndex=0;
     private Options options;
-    private Map<JmxStatisticKey, Integer> columnIndexes = new HashMap<JmxStatisticKey, Integer>();
+    private Map<GwtFilterKey, Integer> columnIndexes = new HashMap<GwtFilterKey, Integer>();
     private Map<TimeOfDay, Integer> rowIndexes = new HashMap<TimeOfDay, Integer>(10000);
     private DragController dragController;
     private ChartHeaderPresenter chartHeaderPresenter;
@@ -100,13 +95,13 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
         chartHeaderPresenter.getEdit().addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent event) {
-                okHandlerRegistration = editChartPresenter.addOkHandler(new EditChartHandler());
-                cancelHandlerRegistration = editChartPresenter.addCancelHandler(new CancelHandler() {
-                    @Override
-                    public void onCancel(CancelEvent event) {
-                        removeRegistrations();
-                    }
-                });
+//                okHandlerRegistration = editChartPresenter.addOkHandler(new EditChartHandler());
+//                cancelHandlerRegistration = editChartPresenter.addCancelHandler(new CancelHandler() {
+//                    @Override
+//                    public void onCancel(CancelEvent event) {
+//                        removeRegistrations();
+//                    }
+//                });
                 editChartPresenter.setChart(chart);
                 editChartPresenter.show();
             }
@@ -115,12 +110,12 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
         chartHeaderPresenter.getClose().addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent event) {
-                actionServiceAsync.execute(new RemoveSubscriptionAction(chart.getKeys(), streamingService.getSessionId()), new AbstractAsyncCallback<RemoveSubscriptionResult>() {
-                    @Override
-                    public void onSuccess(RemoveSubscriptionResult result) {
-                        eventBus.fireEvent(new ChartClosedEvent(chart));
-                    }
-                });
+//                actionServiceAsync.execute(new RemoveSubscriptionAction(chart.getKeys(), streamingService.getSessionId()), new AbstractAsyncCallback<RemoveSubscriptionResult>() {
+//                    @Override
+//                    public void onSuccess(RemoveSubscriptionResult result) {
+//                        eventBus.fireEvent(new ChartClosedEvent(chart));
+//                    }
+//                });
             }
         });
     }
@@ -200,41 +195,41 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
         data.addColumn(AbstractDataTable.ColumnType.TIMEOFDAY, "Time");
     }
 
-    public void updateData(NumberStatisticMessage msg) {
+    public void updateData(EventMessage msg) {
         if (null != msg) {
 
-            for (NumberStatisticMessage.TimeAndValue timeAndValue : msg.getValues()) {
-                try {
-                    @SuppressWarnings("deprecation")
-                    TimeOfDay timeOfDay = new TimeOfDay(timeAndValue.getTime().getHours(), timeAndValue.getTime().getMinutes(), timeAndValue.getTime().getSeconds(), 0);
-                    Integer rowIndex = rowIndexes.get(timeOfDay);
-                    if (null == rowIndex) {
-                        rowIndex = data.getNumberOfRows();
-                        rowIndexes.put(timeOfDay, rowIndex);
-                        data.addRow();
-                    }
-                    data.setValue(rowIndex, 0, timeOfDay);
-                    Integer index = columnIndexes.get(msg.getIdentifier());
-                    if (index == null) {
-                        index = ++columnIndex;
-                        data.addColumn(AbstractDataTable.ColumnType.NUMBER, msg.getIdentifier().getDisplayName());
-                        columnIndexes.put(msg.getIdentifier(), columnIndex);
-                    }
-
-                    //Now we need to set all other columns to null
-//                    for (int x=0; x< data.getNumberOfColumns()-1; x++) {
-//                        if (index != x) {
-//                            data.setValueNull(rowIndex, x);
-//                        }
+//            for (NumberStatisticMessage.TimeAndValue timeAndValue : msg.getValues()) {
+//                try {
+//                    @SuppressWarnings("deprecation")
+//                    TimeOfDay timeOfDay = new TimeOfDay(timeAndValue.getTime().getHours(), timeAndValue.getTime().getMinutes(), timeAndValue.getTime().getSeconds(), 0);
+//                    Integer rowIndex = rowIndexes.get(timeOfDay);
+//                    if (null == rowIndex) {
+//                        rowIndex = data.getNumberOfRows();
+//                        rowIndexes.put(timeOfDay, rowIndex);
+//                        data.addRow();
 //                    }
-                    data.setValue(rowIndex, index, timeAndValue.getValue().doubleValue());
-
-                } catch (TimeOfDay.BadTimeException e) {
-                    GWT.log("Error: " + e.getMessage());
-                }
-            }
-            viz.draw(data, options);
-
+//                    data.setValue(rowIndex, 0, timeOfDay);
+//                    Integer index = columnIndexes.get(msg.getIdentifier());
+//                    if (index == null) {
+//                        index = ++columnIndex;
+//                        data.addColumn(AbstractDataTable.ColumnType.NUMBER, msg.getIdentifier().getDisplayName());
+//                        columnIndexes.put(msg.getIdentifier(), columnIndex);
+//                    }
+//
+//                    //Now we need to set all other columns to null
+////                    for (int x=0; x< data.getNumberOfColumns()-1; x++) {
+////                        if (index != x) {
+////                            data.setValueNull(rowIndex, x);
+////                        }
+////                    }
+//                    data.setValue(rowIndex, index, timeAndValue.getValue().doubleValue());
+//
+//                } catch (TimeOfDay.BadTimeException e) {
+//                    GWT.log("Error: " + e.getMessage());
+//                }
+//            }
+//            viz.draw(data, options);
+//
         }
     }
 
@@ -271,7 +266,7 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
     }
 
     public void start() {
-        streamingService.addHandler(streamHandler = new MyStreamMessageHandler(), NumberStatisticMessage.class);
+        streamingService.addHandler(streamHandler = new MyStreamMessageHandler(), EventMessage.class);
         streamingService.addHandler(new StreamMessageHandler() {
             @Override
             public void handleMessage(StreamMessage message) {
@@ -289,7 +284,7 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
         rowIndexes.clear();
         columnIndex=0;
         columnIndexes.clear();
-        streamingService.removeHandler(streamHandler, NumberStatisticMessage.class);
+        streamingService.removeHandler(streamHandler, EventMessage.class);
     }
 
     public HandlerRegistration addChartClosedEventHandler(ChartClosedEventHandler handler) {
@@ -300,9 +295,9 @@ public class LineChartPresenter extends AbstractMvpPresenter<LineChartPresenter.
 
         @Override
         public void handleMessage(final StreamMessage message) {
-            if (message instanceof NumberStatisticMessage) {
-                NumberStatisticMessage msg = (NumberStatisticMessage) message;
-                if (chart.getKeys().contains(msg.getIdentifier())) {
+            if (message instanceof EventMessage) {
+                EventMessage msg = (EventMessage) message;
+                if (chart.getKeys().contains(msg.getGwtFilterKey())) {
                     updateData(msg);
                 }
             }

@@ -16,30 +16,27 @@ import com.inventive.system.monitoring.gwt.client.dialog.OkEvent;
 import com.inventive.system.monitoring.gwt.client.dialog.OkHandler;
 import com.inventive.system.monitoring.gwt.client.mvp.AbstractMvpPresenter;
 import com.inventive.system.monitoring.gwt.client.mvp.MvpView;
-import com.inventive.system.monitoring.gwt.client.statistics.dto.JmxStatisticKey;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.GwtFilterKey;
 
 /**
  * User: grant
  */
-public class AddJmxPropertyPresenter extends AbstractMvpPresenter<AddJmxPropertyPresenter.View> {
+public class AddFilterPresenter extends AbstractMvpPresenter<AddFilterPresenter.View> {
 
-    private JmxStatisticKey jmxStatisticKey;
+    private GwtFilterKey gwtFilterKey;
     private EventBus eventBus;
 
-    @ImplementedBy(AddJmxPropertyView.class)
+    @ImplementedBy(AddFilterView.class)
     public static interface View extends MvpView {
-        HasValue<String> getObjectValue();
-        HasValue<String> getPropertyValue();
-        HasValue<String> getMachineValue();
-        HasValue<String> getProcessValue();
-        HasValue<String> getFieldValue();
+        HasValue<String> getFilterValue();
+        HasValue<String> getDisplayNameValue();
         HasClickHandlers getOk();
         HasClickHandlers getCancel();
         DialogBox getDialogBox();
     }
 
     @Inject
-    public AddJmxPropertyPresenter(View view) {
+    public AddFilterPresenter(View view) {
 
         super(view);
         init();
@@ -51,14 +48,11 @@ public class AddJmxPropertyPresenter extends AbstractMvpPresenter<AddJmxProperty
         getView().getOk().addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent event) {
-                if (null == jmxStatisticKey) {
-                    jmxStatisticKey = new JmxStatisticKey();
+                if (null == gwtFilterKey) {
+                    gwtFilterKey = new GwtFilterKey();
                 }
-                jmxStatisticKey.setObjectName(getView().getObjectValue().getValue());
-                jmxStatisticKey.setPropertyName(getView().getPropertyValue().getValue());
-                jmxStatisticKey.setMachineName(getView().getMachineValue().getValue());
-                jmxStatisticKey.setProcessName(getView().getProcessValue().getValue().trim().equals("") ? null : getView().getProcessValue().getValue());
-                jmxStatisticKey.setFieldName(getView().getFieldValue().getValue().trim().equals("") ? null : getView().getFieldValue().getValue());
+                gwtFilterKey.setQuery(getView().getFilterValue().getValue());
+                gwtFilterKey.setDisplayName(getView().getDisplayNameValue().getValue());
                 eventBus.fireEvent(new OkEvent());
                 getView().getDialogBox().hide();
             }
@@ -75,22 +69,19 @@ public class AddJmxPropertyPresenter extends AbstractMvpPresenter<AddJmxProperty
     }
 
     public void reset() {
-        jmxStatisticKey = null;
-        getView().getObjectValue().setValue(null);
-        getView().getPropertyValue().setValue(null);
-        getView().getMachineValue().setValue(null);
-        getView().getProcessValue().setValue(null);
-        getView().getFieldValue().setValue(null);
+        gwtFilterKey = null;
+        getView().getFilterValue().setValue(null);
+        getView().getDisplayNameValue().setValue(null);
     }
 
-    public JmxStatisticKey getJmxStatisticKey() {
-        return jmxStatisticKey;
+    public GwtFilterKey getGwtFilterKey() {
+        return gwtFilterKey;
     }
 
     public void show() {
         getView().getDialogBox().center();
         getView().getDialogBox().show();
-        jmxStatisticKey = null;
+        gwtFilterKey = null;
     }
 
     public HandlerRegistration addOkHandler(OkHandler handler) {

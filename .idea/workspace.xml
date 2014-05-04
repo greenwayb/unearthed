@@ -1,160 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="before stripping controller down">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/gwt/client/statistics/chart_line_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/gwt/client/statistics/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/AbstractAsyncCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/AbstractMvpPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionHandlerRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/ActionServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/ActionServiceProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/callable/AddPublisherCallable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddSubscriptionActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Cacheable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/CachingActionServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/CancelEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/CancelHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/ChartClosedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/ChartClosedEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartHeaderView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/ConversionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/action/DefaultActionHandlerRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/DragDropGridView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ExternalConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ExternalStatisticsPublisherMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/GetChartsActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/GetPublishersActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetPublishersResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/monitoring/GetStatisticsAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/monitoring/GetStatisticsActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/monitoring/GetStatisticsResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/GetStreamingMessagesAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/GetStreamingMessagesActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/GetStreamingMessagesResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtStatisticDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/HasPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/HasStatistic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/JmxStatisticKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenterFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/LoggedInEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/LoggedInEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/LoginActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/LoginResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MachineLockKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MapNames.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MemoryDataConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/MessageDialogView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/MvpPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/mvp/MvpView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/NumberStatisticMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/OkEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dialog/OkHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ProcessNameFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveChartAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/RemoveChartActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveChartResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/RemoveSubscriptionActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/RemoveSubscriptionResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/ResetChartsStreamingMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ResetJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/ResetMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/Resources.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/action/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StartStreamingAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StartStreamingActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StartStreamingResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/StatisticPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StopStreamingAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StopStreamingActionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StopStreamingResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListenerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/StreamingServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/SystemMonitoring.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringEntryPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/TextStreamMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/UserContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/WidgetMovedEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/WidgetMovedHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/assembly/assembly.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/server/publisher/external-publishers-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/com/inventive/system/monitoring/server/publisher/external-publishers.xml.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/external-publishers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gwt_user.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/handler-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/monitoring.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/storage-node.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/classes/web-override.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/rest.iml" afterPath="$PROJECT_DIR$/rest/rest.iml" />
+    <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="Add monitoring webapp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/Cycle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/CyclesCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/CyclesREST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/CyclesUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/EventMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_allen_sauer_gwt_dnd_gwt_dnd_3_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_google_apis_gwt_visualization_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_dev_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_servlet_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_user_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_inject_gin_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_sources_1_0_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_gwt_widget_gwt_sl_0_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_framework_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_scr_annotations_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_osgi_core_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_1_8_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/UnregisterQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/monitoring_GWT.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/service/streaming/NumberStatisticMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsPresenter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsView.ui.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/HasStatistic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddSubscriptionResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/JmxStatisticKey.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddSubscriptionActionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/GetPublishersActionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/RemoveSubscriptionActionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListenerImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/MapNames.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/ResetJob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/Unearthed.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventCache.java" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java" afterPath="$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unearthed.iws" />
@@ -178,102 +102,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SSE.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee">
+      <file leaf-file-name="AddFilterActionHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.345454" vertical-offset="2271" max-vertical-offset="3195">
+              <caret line="182" column="164" selection-start-line="182" selection-start-column="164" selection-end-line="182" selection-end-column="164" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1651#1652#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditChartPresenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.846154" vertical-offset="963" max-vertical-offset="2490">
+              <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1942#1964#0" expanded="true" />
+                <element signature="e#3173#4151#0" expanded="true" />
+                <element signature="e#4140#4141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GwtFilterKey.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="750">
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterView.ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+              <folding>
+                <marker date="1399160823000" expanded="true" signature="151:187" placeholder="{...}" />
+                <marker date="1399160823000" expanded="true" signature="208:245" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="960">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+              <folding>
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterPresenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1440">
+              <caret line="70" column="63" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1728#2230#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
+                <element signature="e#2970#2971#0" expanded="true" />
+                <element signature="e#3035#3036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsREST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4335">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-misc.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js">
+      <file leaf-file-name="RegisterQuery.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/RegisterQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html">
+      <file leaf-file-name="UnregisterQuery.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/UnregisterQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3525">
-              <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13043478" vertical-offset="0" max-vertical-offset="575">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="morris.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html">
+      <file leaf-file-name="ClickEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/gwt-2.5.0/gwt-user.jar!/com/google/gwt/event/dom/client/ClickEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2550">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1500">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Track.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3000">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.875" vertical-offset="966" max-vertical-offset="1980">
-              <caret line="85" column="69" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitoring/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3630">
-              <caret line="39" column="162" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddJmxPropertyPresenter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29182878" vertical-offset="0" max-vertical-offset="1500">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#1592#0" expanded="true" />
+                <element signature="e#1556#1557#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -308,6 +260,29 @@
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee" />
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterResult.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterAction.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventCache.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListenerImpl.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtEvent.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/EventMessage.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java" />
+        <option value="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/reporting/UnregisterQuery.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/UnregisterQuery.java" />
       </list>
     </option>
   </component>
@@ -420,7 +395,125 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,9 +542,15 @@
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.unearthed.entities.reporting" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest" />
       <recent name="C:\Git\unearthed\frontend\admin-iflat\client\scripts\sse" />
     </key>
   </component>
@@ -739,6 +838,7 @@
     <configuration default="false" name="Monitoring" type="GWT.ConfigurationType" factoryName="GWT Configuration">
       <module name="monitoring" />
       <option name="RUN_PAGE" value="SystemMonitoring.html" />
+      <option name="OPEN_IN_BROWSER" value="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -845,12 +945,17 @@
       <workItem from="1399109743029" duration="946000" />
       <workItem from="1399110756498" duration="14518000" />
       <workItem from="1399128328272" duration="7527000" />
-      <workItem from="1399155915728" duration="367000" />
+      <workItem from="1399155915728" duration="5875000" />
     </task>
+    <task id="LOCAL-00001" summary="Add monitoring webapp">
+      <created>1399156360590</created>
+      <updated>1399156360590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23358000" />
+    <option name="totallyTimeSpent" value="28866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1135" extended-state="6" />
@@ -860,31 +965,31 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16240682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44582933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26357827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44582933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39980826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33013844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16506922" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -904,139 +1009,19 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="before stripping controller down" />
-    <option name="LAST_COMMIT_MESSAGE" value="before stripping controller down" />
+    <MESSAGE value="Add monitoring webapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add monitoring webapp" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="585">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3315" max-vertical-offset="3525">
-          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2550">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1500">
-          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2955">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/scripts/sse/SSE.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="870">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3000">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1980">
-          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/Task/Task.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/scripts/sse/SSE.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="986">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="697">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/scripts/sse/SSE.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="986">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/Unearthed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="2839">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/entries/entryItems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/entries/entryEvents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="578">
@@ -1111,13 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/Unearthed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2788">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1230,10 +1208,283 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddJmxPropertyPresenter.java">
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29182878" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1399155893000" expanded="true" signature="-1:-1" placeholder="select\nshke..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/CyclesUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1399115570000" expanded="true" signature="-1:-1" placeholder="select\nshke..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3174114" vertical-offset="701" max-vertical-offset="1350">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30046225" vertical-offset="0" max-vertical-offset="649">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2893" max-vertical-offset="4695">
+          <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2554#2577#0" expanded="true" />
+            <element signature="e#2641#2661#0" expanded="true" />
+            <element signature="e#4399#5006#0" expanded="true" />
+            <element signature="e#4995#4996#0" expanded="true" />
+            <element signature="e#5066#5597#0" expanded="true" />
+            <element signature="e#5586#5587#0" expanded="true" />
+            <element signature="e#5991#5992#0" expanded="true" />
+            <element signature="e#6019#6020#0" expanded="true" />
+            <element signature="e#6060#6061#0" expanded="true" />
+            <element signature="e#6094#6095#0" expanded="true" />
+            <element signature="e#10283#10284#0" expanded="true" />
+            <element signature="e#10326#10327#0" expanded="true" />
+            <element signature="e#10368#10369#0" expanded="true" />
+            <element signature="e#10420#10421#0" expanded="true" />
+            <element signature="e#10464#10465#0" expanded="true" />
+            <element signature="e#10523#10524#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+            <element signature="e#10712#10713#0" expanded="true" />
+            <element signature="e#11226#11535#0" expanded="true" />
+            <element signature="e#11524#11525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="3615">
+          <caret line="52" column="77" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1399159978000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1015" max-vertical-offset="1650">
+          <caret line="137" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1710">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/EventMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.345454" vertical-offset="2271" max-vertical-offset="3195">
+          <caret line="182" column="164" selection-start-line="182" selection-start-column="164" selection-end-line="182" selection-end-column="164" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/gwt-2.5.0/gwt-user.jar!/com/google/gwt/event/dom/client/ClickEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#1592#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.846154" vertical-offset="963" max-vertical-offset="2490">
+          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1942#1964#0" expanded="true" />
+            <element signature="e#3173#4151#0" expanded="true" />
+            <element signature="e#4140#4141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+          <folding>
+            <marker date="1399160823000" expanded="true" signature="151:187" placeholder="{...}" />
+            <marker date="1399160823000" expanded="true" signature="208:245" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="960">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="750">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1440">
+          <caret line="70" column="63" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1728#2230#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4335">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/RegisterQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/UnregisterQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13043478" vertical-offset="0" max-vertical-offset="575">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>

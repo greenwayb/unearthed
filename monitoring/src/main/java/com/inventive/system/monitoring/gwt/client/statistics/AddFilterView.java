@@ -9,9 +9,9 @@ import com.google.gwt.user.client.ui.*;
 /**
  * User: grant
  */
-public class AddJmxPropertyView implements AddJmxPropertyPresenter.View {
+public class AddFilterView implements AddFilterPresenter.View {
 
-    interface SystemMonitoringViewUiBinder extends UiBinder<HTMLPanel, AddJmxPropertyView> {}
+    interface SystemMonitoringViewUiBinder extends UiBinder<HTMLPanel, AddFilterView> {}
     private static SystemMonitoringViewUiBinder ourUiBinder = GWT.create(SystemMonitoringViewUiBinder.class);
 
     @UiField
@@ -26,47 +26,33 @@ public class AddJmxPropertyView implements AddJmxPropertyPresenter.View {
     private DialogBox dialogBox;
 
     @UiField
-    TextBox objectNameTextBox;
+    TextBox filterTextBox;
+
     @UiField
-    TextBox propertyNameTextBox;
-    @UiField
-    TextBox machineNameTextBox;
-    @UiField
-    TextBox processNameTextBox;
-    @UiField
-    TextBox fieldNameTextBox;
+    TextBox displayNameTextBox;
+
 
     @Override
     public Widget asWidget() {
         return rootPanel;
     }
 
-    public AddJmxPropertyView() {
+    public AddFilterView() {
         ourUiBinder.createAndBindUi(this);
         dialogBox = new DialogBox();
         dialogBox.setWidget(this);
-        dialogBox.setText("JMX Properties");
+        dialogBox.setText("Filter Properties");
 
     }
 
     @Override
-    public HasValue<String> getObjectValue() {
-        return objectNameTextBox;
+    public HasValue<String> getFilterValue() {
+        return filterTextBox;
     }
 
     @Override
-    public HasValue<String> getMachineValue() {
-        return machineNameTextBox;
-    }
-
-    @Override
-    public HasValue<String> getProcessValue() {
-        return processNameTextBox;
-    }
-
-    @Override
-    public HasValue<String> getFieldValue() {
-        return fieldNameTextBox;
+    public HasValue<String> getDisplayNameValue() {
+        return displayNameTextBox;
     }
 
     @Override
@@ -77,11 +63,6 @@ public class AddJmxPropertyView implements AddJmxPropertyPresenter.View {
     @Override
     public DialogBox getDialogBox() {
         return dialogBox;
-    }
-
-    @Override
-    public HasValue<String> getPropertyValue() {
-        return  propertyNameTextBox;
     }
 
     @Override

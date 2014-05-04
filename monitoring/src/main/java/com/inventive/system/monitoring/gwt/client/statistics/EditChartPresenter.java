@@ -17,7 +17,7 @@ import com.inventive.system.monitoring.gwt.client.dialog.OkHandler;
 import com.inventive.system.monitoring.gwt.client.mvp.AbstractMvpPresenter;
 import com.inventive.system.monitoring.gwt.client.mvp.MvpView;
 import com.inventive.system.monitoring.gwt.client.statistics.dto.Chart;
-import com.inventive.system.monitoring.gwt.client.statistics.dto.JmxStatisticKey;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.GwtFilterKey;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,16 +45,16 @@ public class EditChartPresenter extends AbstractMvpPresenter<EditChartPresenter.
     private HandlerRegistration okHandlerRegistration;
     private HandlerRegistration cancelHandlerRegistration;
 
-    private AddJmxPropertyPresenter addJmxPropertyPresenter;
+    private AddFilterPresenter addFilterPresenter;
 
-    private Map<String, JmxStatisticKey> indexes = new HashMap<String, JmxStatisticKey>();
+    private Map<String, GwtFilterKey> indexes = new HashMap<String, GwtFilterKey>();
 
     @Inject
     public EditChartPresenter(View view,
-                              AddJmxPropertyPresenter addJmxPropertyPresenter) {
+                              AddFilterPresenter addFilterPresenter) {
         super(view);
         eventBus = new SimpleEventBus();
-        this.addJmxPropertyPresenter = addJmxPropertyPresenter;
+        this.addFilterPresenter = addFilterPresenter;
         init();
     }
 
@@ -68,7 +68,7 @@ public class EditChartPresenter extends AbstractMvpPresenter<EditChartPresenter.
                     chart = new Chart();
                 }
                 chart.setTitle(getView().getTitle().getValue());
-                chart.setKeys(new ArrayList<JmxStatisticKey>(indexes.values()));
+                chart.setKeys(new ArrayList<GwtFilterKey>(indexes.values()));
                 eventBus.fireEvent(new OkEvent());
                 getView().getDialogBox().hide();
             }
@@ -85,22 +85,22 @@ public class EditChartPresenter extends AbstractMvpPresenter<EditChartPresenter.
         getView().getAdd().addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent event) {
-                okHandlerRegistration = addJmxPropertyPresenter.addOkHandler(new OkHandler() {
+                okHandlerRegistration = addFilterPresenter.addOkHandler(new OkHandler() {
                     @Override
                     public void onOk(OkEvent event) {
-                        JmxStatisticKey jmxStatisticKey = addJmxPropertyPresenter.getJmxStatisticKey();
+                        GwtFilterKey jmxStatisticKey = addFilterPresenter.getGwtFilterKey();
                         indexes.put(jmxStatisticKey.getDisplayName(), jmxStatisticKey);
                         getView().getListBox().addItem(jmxStatisticKey.getDisplayName());
                         removeRegistrations();
                     }
                 });
-                cancelHandlerRegistration = addJmxPropertyPresenter.addCancelHandler(new CancelHandler() {
+                cancelHandlerRegistration = addFilterPresenter.addCancelHandler(new CancelHandler() {
                     @Override
                     public void onCancel(CancelEvent event) {
                         removeRegistrations();
                     }
                 });
-                addJmxPropertyPresenter.show();
+                addFilterPresenter.show();
             }
         });
 
@@ -165,7 +165,7 @@ public class EditChartPresenter extends AbstractMvpPresenter<EditChartPresenter.
         getView().getListBox().clear();
         if (null != chart) {
             getView().getTitle().setValue(chart.getTitle());
-            for (JmxStatisticKey jmxStatisticKey : chart.getKeys()) {
+            for (GwtFilterKey jmxStatisticKey : chart.getKeys()) {
                 indexes.put(jmxStatisticKey.getDisplayName(), jmxStatisticKey);
                 getView().getListBox().addItem(jmxStatisticKey.getDisplayName());
 

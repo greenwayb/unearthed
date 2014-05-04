@@ -1,7 +1,7 @@
 package com.inventive.system.monitoring.gwt.client.statistics.events;
 
 import com.google.gwt.event.shared.GwtEvent;
-import com.inventive.system.monitoring.gwt.client.statistics.dto.JmxStatisticKey;
+import com.inventive.system.monitoring.gwt.client.statistics.dto.GwtFilterKey;
 
 import java.util.Set;
 
@@ -12,14 +12,14 @@ public class AddChartEvent extends GwtEvent<AddChartEventHandler> {
 
     public static final Type<AddChartEventHandler> TYPE = new Type<AddChartEventHandler>();
 
-    private Set<JmxStatisticKey> keys;
+    private Set<GwtFilterKey> keys;
 
-    public AddChartEvent(Set<JmxStatisticKey> keys) {
+    public AddChartEvent(Set<GwtFilterKey> keys) {
         this.keys = keys;
     }
 
 
-    public Set<JmxStatisticKey> getKeys() {
+    public Set<GwtFilterKey> getKeys() {
         return keys;
     }
 

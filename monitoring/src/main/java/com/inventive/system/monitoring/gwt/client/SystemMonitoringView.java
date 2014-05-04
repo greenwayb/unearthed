@@ -52,10 +52,10 @@ public class SystemMonitoringView implements SystemMonitoringPresenter.View {
         return addWidgetButton;
     }
 
-    @Override
-    public HasOneWidget getDescriptorsWrapperPanel() {
-        return descriptorsWrapperPanel;
-    }
+//    @Override
+//    public HasOneWidget getDescriptorsWrapperPanel() {
+//        return descriptorsWrapperPanel;
+//    }
 
     @Override
     public HasSelectionHandlers<Integer> getTabSelectionHandlers() {
