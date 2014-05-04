@@ -11,6 +11,11 @@
             width: 200px;
         }
 
+        .textArea {
+            width: 300px;
+            height: 100px;
+        }
+
     </ui:style>
 
     <g:HTMLPanel ui:field="rootPanel">
@@ -21,9 +26,11 @@
         </div>
         <div>
             <g:Label text="Filter:" addStyleNames="{style.left} {style.leftPanel}"/>
-            <g:TextBox ui:field="filterTextBox" addStyleNames="{style.left}" />
+            <g:TextArea ui:field="filterTextArea" addStyleNames="{style.left} {style.textArea}" text="select durationTravelLoaded from cycles where durationLoading > 2" />
         </div>
-        <g:Button ui:field="okButton" text="OK" />
-        <g:Button ui:field="cancelButton" text="Cancel" />
+        <div>
+            <g:Button ui:field="okButton" text="OK" />
+            <g:Button ui:field="cancelButton" text="Cancel" />
+        </div>
     </g:HTMLPanel>
 </ui:UiBinder>

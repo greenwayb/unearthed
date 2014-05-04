@@ -1,0 +1,32 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <ui:style>
+
+        .wrapper {
+            width: 100%;
+        }
+
+    </ui:style>
+
+    <g:HTMLPanel ui:field="htmlPanel" addStyleNames="{style.wrapper}">
+        <g:SplitLayoutPanel>
+            <g:west size="500">
+                <g:VerticalPanel >
+                    <g:Button ui:field="dropButton" text="Drop"/>
+                    <g:Button ui:field="pickupButton" text="Pickup"/>
+                    <g:Button ui:field="moveToUnload" text="Move to Unload"/>
+                    <g:Button ui:field="moveToLoad" text="Move to Load"/>
+                </g:VerticalPanel>
+            </g:west>
+            <g:east size="50">
+                <g:VerticalPanel >
+                    <g:TextBox ui:field="numberField" />
+                </g:VerticalPanel>
+            </g:east>
+        </g:SplitLayoutPanel>
+
+    </g:HTMLPanel>
+
+
+</ui:UiBinder>

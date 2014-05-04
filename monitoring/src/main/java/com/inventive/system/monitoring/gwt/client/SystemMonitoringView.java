@@ -11,8 +11,7 @@ import com.google.gwt.user.client.ui.*;
  */
 public class SystemMonitoringView implements SystemMonitoringPresenter.View {
 
-    interface SystemMonitoringViewUiBinder extends UiBinder<TabLayoutPanel, SystemMonitoringView> {
-    }
+    interface SystemMonitoringViewUiBinder extends UiBinder<TabLayoutPanel, SystemMonitoringView> {}
 
     private static SystemMonitoringViewUiBinder ourUiBinder = GWT.create(SystemMonitoringViewUiBinder.class);
 
@@ -43,10 +42,10 @@ public class SystemMonitoringView implements SystemMonitoringPresenter.View {
         return tabLayoutPanel;
     }
 
-//    @Override
-//    public HasOneWidget getDescriptorsWrapperPanel() {
-//        return descriptorsWrapperPanel;
-//    }
+    @Override
+    public HasOneWidget getDescriptorsWrapperPanel() {
+        return descriptorsWrapperPanel;
+    }
 
 
     @Override

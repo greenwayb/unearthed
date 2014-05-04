@@ -38,7 +38,7 @@
             </g:HTMLPanel>
         </g:tab>
         <g:tab>
-            <g:header>Descriptors</g:header>
+            <g:header>Event Manager</g:header>
             <g:SimpleLayoutPanel ui:field="descriptorsWrapperPanel" />
         </g:tab>
 

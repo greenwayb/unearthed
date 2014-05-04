@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="">
+    <list default="true" id="5afbfef5-bdb3-47ac-a4b0-0ccfb61c78b8" name="Default" comment="Working queries">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/truck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/ChartWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/GridConstrainedDropController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartView.java" />
@@ -10,6 +17,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/storage/StorageNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/server/service/publisher/Subscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" afterPath="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" afterPath="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/dnd/VerticalPanelWithSpacer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,12 +45,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LineChartPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java">
+      <file leaf-file-name="TruckerView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="4560">
-              <caret line="329" column="18" selection-start-line="329" selection-start-column="18" selection-end-line="329" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="780">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TruckerView.ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1399189350000" expanded="true" signature="154:190" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditChartView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditChartView.ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1358312936000" expanded="true" signature="151:187" placeholder="{...}" />
+                <marker date="1358312936000" expanded="true" signature="208:245" placeholder="{...}" />
+                <marker date="1358312936000" expanded="true" signature="261:296" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterView.ui.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding>
+                <marker date="1399189460000" expanded="true" signature="151:187" placeholder="{...}" />
+                <marker date="1399189460000" expanded="true" signature="208:245" placeholder="{...}" />
+                <marker date="1399189460000" expanded="true" signature="265:329" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterPresenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1125">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFilterView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -57,12 +147,22 @@
       <file leaf-file-name="EventsFilterManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6923077" vertical-offset="690" max-vertical-offset="3420">
-              <caret line="73" column="62" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state vertical-scroll-proportion="1.1014235" vertical-offset="2471" max-vertical-offset="3450">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3376#3384#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapNames.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,10 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/app-misc.js" />
-        <option value="$PROJECT_DIR$/frontend/admin-iflat/.tmp/scripts/Chart/ChartCtrl.js" />
-        <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/charts/morris.html" />
-        <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/dashboard.html" />
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/scripts/gf/Track.coffee" />
         <option value="$PROJECT_DIR$/frontend/admin-iflat/client/views/gf/tasks/tasks.html" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/DescriptorsPresenter.java" />
@@ -92,8 +188,6 @@
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/streaming/StreamingListenerImpl.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/Chart.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java" />
-        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" />
-        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java" />
         <option value="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/reporting/UnregisterQuery.java" />
@@ -121,15 +215,21 @@
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/CyclesLineChartPresenter.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/CycleLineChartPresenter.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/inject/SystemMonitorGinInjector.java" />
-        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
-        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
-        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManagerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/monitoring/pom.xml" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/ValueMessage.java" />
         <option value="$PROJECT_DIR$/backend/src/main/resources/backend-application-context.xml" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.ui.xml" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml" />
         <option value="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java" />
       </list>
     </option>
@@ -327,6 +427,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SystemMonitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SystemMonitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unearthed_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -362,162 +558,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="publisher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unearthed_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,18 +592,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gwt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statistics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -791,8 +819,13 @@
       <recent name="org.unearthed.entities.reporting" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/monitoring/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics" />
       <recent name="$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest" />
       <recent name="C:\Git\unearthed\frontend\admin-iflat\client\scripts\sse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/monitoring/src/main/webapp" />
     </key>
   </component>
   <component name="RunManager" selected="GWT Configuration.Monitoring">
@@ -1251,7 +1284,7 @@
       <workItem from="1399155915728" duration="7061000" />
       <workItem from="1399167649647" duration="5279000" />
       <workItem from="1399173002895" duration="214000" />
-      <workItem from="1399173284764" duration="11113000" />
+      <workItem from="1399173284764" duration="16344000" />
     </task>
     <task id="LOCAL-00001" summary="Add monitoring webapp">
       <created>1399156360590</created>
@@ -1265,15 +1298,19 @@
       <created>1399184279722</created>
       <updated>1399184279722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working queries">
+      <created>1399185078598</created>
+      <updated>1399185078598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46658000" />
+    <option name="totallyTimeSpent" value="51889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1135" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1294,7 +1331,7 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39980826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39980826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1337,14 +1374,8 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java</url>
-          <line>164</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1352,99 +1383,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/GetChartsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/commands/AddFilterResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/events/AddChartEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30046225" vertical-offset="0" max-vertical-offset="649">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/gwt-2.5.0/gwt-user.jar!/com/google/gwt/event/dom/client/ClickEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="960">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/java/org/unearthed/webservices/rest/EventsREST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4335">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/UnregisterQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13043478" vertical-offset="0" max-vertical-offset="575">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/entities/RegisterQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1440">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/hazelcast-storage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.8" vertical-offset="0" max-vertical-offset="825">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/ConversionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="44" column="1" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/dto/GwtFilterKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="1080">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/services/EventCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55469954" vertical-offset="0" max-vertical-offset="649">
@@ -1666,33 +1604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="795">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="28" column="96" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1399178587000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1399178587000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1399178587000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1399178587000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1399178587000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3482309" vertical-offset="2738" max-vertical-offset="5505">
@@ -1754,14 +1665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17558528" vertical-offset="0" max-vertical-offset="598">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monitoring/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2443281" vertical-offset="145" max-vertical-offset="720">
@@ -1778,23 +1681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67793596" vertical-offset="2694" max-vertical-offset="3330">
-          <caret line="265" column="23" selection-start-line="265" selection-start-column="15" selection-end-line="265" selection-end-column="15" />
-          <folding>
-            <element signature="e#4773#5359#0" expanded="true" />
-            <element signature="e#5348#5349#0" expanded="true" />
-            <element signature="e#8025#8026#0" expanded="true" />
-            <element signature="e#8065#8066#0" expanded="true" />
-            <element signature="e#9618#9851#0" expanded="true" />
-            <element signature="e#9828#9829#0" expanded="true" />
-            <element signature="e#10858#11091#0" expanded="true" />
-            <element signature="e#11068#11069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/LineChartPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="4560">
@@ -1803,18 +1689,188 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.0" vertical-offset="633" max-vertical-offset="1305">
+          <caret line="79" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/webapp/SystemMonitoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="885">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="3210">
+          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="675">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/SystemMonitoringView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="795">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <marker date="1399185445000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399185445000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399185445000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399185445000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1399185445000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/webapp/truck.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="780">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/EditChartView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1358312936000" expanded="true" signature="151:187" placeholder="{...}" />
+            <marker date="1358312936000" expanded="true" signature="208:245" placeholder="{...}" />
+            <marker date="1358312936000" expanded="true" signature="261:296" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/gwt-2.5.0/gwt-user.jar!/com/google/gwt/user/client/ui/DialogBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321739" vertical-offset="1204" max-vertical-offset="7005">
+          <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1125">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/AddFilterActionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/org/unearthed/cache/MapNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/TruckerView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1399189350000" expanded="true" signature="154:190" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/client/statistics/AddFilterView.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <marker date="1399189460000" expanded="true" signature="151:187" placeholder="{...}" />
+            <marker date="1399189460000" expanded="true" signature="208:245" placeholder="{...}" />
+            <marker date="1399189460000" expanded="true" signature="265:329" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com/inventive/system/monitoring/gwt/server/service/statistics/EventsFilterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6923077" vertical-offset="690" max-vertical-offset="3420">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state vertical-scroll-proportion="1.1014235" vertical-offset="2471" max-vertical-offset="3450">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3376#3384#0" expanded="true" />

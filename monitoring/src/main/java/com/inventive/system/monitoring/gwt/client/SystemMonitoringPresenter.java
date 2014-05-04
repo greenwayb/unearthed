@@ -5,6 +5,7 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.event.shared.HandlerRegistration;
+import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.visualization.client.VisualizationUtils;
 import com.google.gwt.visualization.client.visualizations.corechart.LineChart;
@@ -24,6 +25,7 @@ import com.inventive.system.monitoring.gwt.client.service.streaming.StreamingSer
 import com.inventive.system.monitoring.gwt.client.statistics.EditChartPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.LineChartPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.LineChartPresenterFactory;
+import com.inventive.system.monitoring.gwt.client.statistics.TruckerPresenter;
 import com.inventive.system.monitoring.gwt.client.statistics.commands.AddFilterAction;
 import com.inventive.system.monitoring.gwt.client.statistics.commands.AddFilterResult;
 import com.inventive.system.monitoring.gwt.client.statistics.dto.Chart;
@@ -44,7 +46,7 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     public static interface View extends MvpView {
         HasClickHandlers getAddEventButton();
 //        HasEnabled getAddEventButtonEnabled();
-////        HasOneWidget getDescriptorsWrapperPanel();
+        HasOneWidget getDescriptorsWrapperPanel();
 //        HasSelectionHandlers<Integer> getTabSelectionHandlers();
         void setDragDopView(IsWidget dragDropView);
 
@@ -56,6 +58,7 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
     private ActionServiceAsync actionServiceAsync;
     private StreamingService streamingService;
     private LineChartPresenterFactory lineChartPresenterFactory;
+    private TruckerPresenter truckPresenter;
     private EventBus eventBus;
     private boolean loggedIn = false;
     private boolean visualizationsLoaded = false;
@@ -67,20 +70,22 @@ public class SystemMonitoringPresenter extends AbstractMvpPresenter<SystemMonito
                                      ActionServiceAsync actionServiceAsync,
                                      StreamingService streamingService,
                                      EventBus eventBus,
-                                     DragDropGridPresenter dragDropGridPresenter) {
+                                     DragDropGridPresenter dragDropGridPresenter,
+                                     TruckerPresenter truckPresenter) {
         super(view);
         this.actionServiceAsync = actionServiceAsync;
         this.editChartPresenter = editChartPresenter;
         this.streamingService = streamingService;
         this.eventBus = eventBus;
         this.dragDropGridPresenter = dragDropGridPresenter;
+        this.truckPresenter = truckPresenter;
         init();
     }
 
     public void init() {
 //        getView().getAddButtonEnabled().setEnabled(false);
 
-//        getView().getDescriptorsWrapperPanel().setWidget(descriptorsPresenter.getView());
+        getView().getDescriptorsWrapperPanel().setWidget(truckPresenter.getView());
 
         Runnable onLoadCallback = new Runnable() {
             public void run() {

@@ -23,10 +23,11 @@ public class AddFilterView implements AddFilterPresenter.View {
     @UiField
     HTMLPanel rootPanel;
 
+    @UiField
+    TextArea filterTextArea;
+
     private DialogBox dialogBox;
 
-    @UiField
-    TextBox filterTextBox;
 
     @UiField
     TextBox displayNameTextBox;
@@ -47,7 +48,7 @@ public class AddFilterView implements AddFilterPresenter.View {
 
     @Override
     public HasValue<String> getFilterValue() {
-        return filterTextBox;
+        return filterTextArea;
     }
 
     @Override

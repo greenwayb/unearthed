@@ -199,10 +199,12 @@ public class EventsFilterManager {
         outValue.setShKey(in.getShKey());
         outValue.setSite(in.getSite());
         outValue.setSource(in.getSource());
-        c.setTime(in.getEventDateTime());
-        outValue.setHours(c.get(Calendar.HOUR));
-        outValue.setMinutes(c.get(Calendar.MINUTE));
-        outValue.setSeconds(c.get(Calendar.SECOND));
+        if (in.getEventDateTime() != null) {
+            c.setTime(in.getEventDateTime());
+            outValue.setHours(c.get(Calendar.HOUR));
+            outValue.setMinutes(c.get(Calendar.MINUTE));
+            outValue.setSeconds(c.get(Calendar.SECOND));
+        }
     }
 
     private GwtCycle toGwtCycle(Cycle in) {
